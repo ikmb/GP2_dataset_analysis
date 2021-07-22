@@ -1,6 +1,6 @@
-# Fruitseq
+# Docu-Template
 
-This is a demo repo as an example for how scientific documentation in data science projects can function. A separate repo just containing the skeleton for the use as template will be created soon. This is developed from the [repo skeleton of ISU genomics](https://github.com/ISUgenomics/Repo_skeleton) described in detail [here](https://bioinformaticsworkbook.org/projectManagement/Intro_projectManagement.html).
+This is a demo repo as an example for how scientific documentation in data science projects can function. To use this as a template for your data science project, select "Use this template" and open your repo. To remove all demo content from the repo, run `./initialize.sh` in your new repo's main folder.
 
 ## Layout description
 
@@ -27,6 +27,7 @@ The Readme.md includes a description of the project and points at the points whe
 ### 00_Files.md
 
 This describes all files of importance for this project, namely:
+
 * Input files, structured by type of data, source of data, experimental method as one sees fit. 
 * Processed data which is not saved in the repo due to privacy or size, linking to databases, temp-folders, who to ask for access.
 * Final Files of Importance. Everything that is considered an informative result and definitely all items that are included in the paper or supplement.
@@ -71,29 +72,40 @@ A table of contents listing your log files and describing in few words what has 
 
 ### Single step doc files
 
-Every logically connected analysis step gets one document. Dead ends are documented. The numbering is not corresponding to the numbers of the analysis subdirectories, see Notebook README.md for that. An analysis step might be documented in multiple docs, but no doc covers multiple analysis steps. Every doc file contains  
+Every logically connected analysis step gets one document. You can start by copying the notebookTemplate.md to your notebook folder. Some suggestions:
+
+* Document dead ends and failures.
+* The numbering in your notebook will not match the analysis step subdirectories. Keep track by mapping your logs to analysis steps in the README.md of your notebook folder.
+* An analysis step might be documented in multiple docs, but no doc covers multiple analysis steps.
+
+Every doc file contains  
+
 * Title
 * Date
 * Computer and path where the step was executed.
 * Objective and reason
-* Commands run. Use wrapper scripts to simplify. 
+* Commands run. Use wrapper scripts to simplify.
 * Description of the result
 
 Every sensible unit of work has its own doc file.  
-If there are any concerns regarding risks, assumptions, issues or dependencies of this step, then note them down in Notes.md in the main directory. 
+If there are any concerns regarding risks, assumptions, issues or dependencies of this step, then note them down in Notes.md in the main directory.
 
 ## Analysis step subdirectories
 
 An analysis step is the way from an input to an output that is an input to another step or a result. Examples include "Coexpression analysis", "Quality control", "Differential expression analysis". Each directory contains
+
 * A wrapper bash-script which reruns the whole step.
 * Scripts that are called in the wrapper.
 * Directories local/, temp/ and/or results/.
 
-temp/ is used for any files that can be safely deleted, but are kept to study the workings of the script or to minimize time for a rerun. Could also be called work/. local/ is for results that are used later on, but which should not be synchronized with github because of size or privacy. results/ is for results and files used later on that can be uploaded to github safely. 
+temp/ is used for any files that can be safely deleted, but are kept to study the workings of the script or to minimize time for a rerun. Could also be called work/. local/ is for results that are used later on, but which should not be synchronized with github because of size or privacy. results/ is for results and files used later on that can be uploaded to github safely.
 
 The goal of this structure is that you can run the wrapper script from inside the analysis folder and the step is completely reproduced.
 
 ### Dealing with intermediate files not in the repo
 
-Files in local/ directories are not synchronized with the repo, so after downloading the repo, a step depending on a "local" file cannot simply rerun. Prior to publication, such data can either be deposited in a data storage accessible for collaborators or we put up with it and rerun all steps. 
+Files in local/ directories are not synchronized with the repo, so after downloading the repo, a step depending on a "local" file cannot simply rerun. Prior to publication, such data can either be deposited in a data storage accessible for collaborators or we put up with it and rerun all steps.
 
+## Credit
+
+ This is developed from the [repo skeleton of ISU genomics](https://github.com/ISUgenomics/Repo_skeleton) described in detail [here](https://bioinformaticsworkbook.org/projectManagement/Intro_projectManagement.html).

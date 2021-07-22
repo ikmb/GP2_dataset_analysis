@@ -1,6 +1,5 @@
 # Background information about the project
 
-
 ## Organism
 
 Fruits of various species

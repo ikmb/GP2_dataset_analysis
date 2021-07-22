@@ -1,11 +1,9 @@
 # Author Information
 
 ## Author Order
-```
-```
+
 ## Author Affiliations, addresses and email addresses
-```
-```
+
 ## Contributions
 ```
 
