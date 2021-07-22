@@ -5,18 +5,20 @@ This is a demo repo as an example for how scientific documentation in data scien
 ## Layout description
 
 The repo has three main areas:
+
 * Main directory
 * Researchers' notebooks
 * Subdirectories of each independent analytis step
 
 ## Main directory
 
-Latest when external collaborators join the project or it is to be published, the landing page of the repo should look welcoming and helpful. A person not knowing the project should be able to understand and reproduce the scientific work presented. The two main design elements for this are obvious filename and directory structure, and an introductory Readme.md. 
+Latest when external collaborators join the project or it is to be published, the landing page of the repo should look welcoming and helpful. A person not knowing the project should be able to understand and reproduce the scientific work presented. The two main design elements for this are obvious filename and directory structure, and an introductory Readme.md.  
 
 ### Readme.md
 
 The Readme.md includes a description of the project and points at the points where to get started, if this is the first contact with the repo:
-* 00\_Files.md, 01_Background.md 
+
+* 00\_Files.md, 01_Background.md
 * Notebooks
 * Analysis directories
 * Analysis flowchart?
@@ -31,7 +33,8 @@ This describes all files of importance for this project, namely:
 
 ### 00a_Metadata.md
 
-All information about files that can not easily be formatted into a table. 
+All information about files that can not easily be formatted into a table.
+
 * Method details before writing the method section
 * Method details so specific that they need not be published
 
@@ -39,7 +42,8 @@ A table of individual mice and their weight used as covariate for a sequencing e
 
 ### 01_Background.md
 
-This document elaborates on the cornerstones of the project. While the main Readme.md is for guidance of the visitor, this is to explain the 
+This document elaborates on the cornerstones of the project. While the main Readme.md is for guidance of the visitor, this is to explain the
+
 * objective,
 * deliverables (when we have all these, the paper can be submitted),
 * literature relevant to the study, with a short description,
