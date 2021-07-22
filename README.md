@@ -55,7 +55,7 @@ Here, the manuscript can be drafted. In 03\_Results.md, figures are implemented.
 
 ### environment.yml
 
-Ideally, the complete project can be run from the command line in a defined environment like conda, that takes care of all dependencies. Any environment or containerization service is possible, as seen fit. If graphical programs are used, whose results need to be exactly reproducible, the graphical program is started from the command line in the respective environment or container. In case of conda usage you can define a basic environment.yml that can be used to created the projects conda environment with `sh create_conda_env.sh`. Updates to an existing conda environment can be performed with `sh update_conda_from_env.sh`.sh and the further modified conda environment can then mirrored to an updated environment.yml file with `sh update_environment.sh` to enable reproducable analysis steps.
+Ideally, the complete project can be run from the command line in a defined environment like conda, that takes care of all dependencies. Any environment or containerization service is possible, as seen fit. If graphical programs are used, whose results need to be exactly reproducible, the graphical program is started from the command line in the respective environment or container. In case of conda usage you can define a basic environment.yml that can be used to created the projects conda environment with `sh create_conda_env.sh`. Updates to an existing conda environment can be performed with `sh update_conda_from_env.sh` and the further modified conda environment can then mirrored to an updated environment.yml file with `sh update_environment.sh` to enable reproducable analysis steps.
 
 ### Notes.md
 
