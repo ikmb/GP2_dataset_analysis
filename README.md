@@ -8,11 +8,11 @@ The repo has three main areas:
 
 * Main directory
 * Researchers' notebooks
-* Subdirectories of each independent analytis step
+* Subdirectories of each independent analysis step
 
 ## Main directory
 
-Latest when external collaborators join the project or it is to be published, the landing page of the repo should look welcoming and helpful. A person not knowing the project should be able to understand and reproduce the scientific work presented. The two main design elements for this are obvious filename and directory structure, and an introductory Readme.md.  
+Latest when external collaborators join the project or it is to be published, the landing page of the repo should look welcoming and helpful. A person not knowing the project should be able to understand and reproduce the scientific work presented. The two main design elements for this are obvious filenames and directory structure, and an introductory Readme.md.  
 
 ### Readme.md
 
@@ -28,7 +28,7 @@ The Readme.md includes a description of the project and points at the points whe
 
 This describes all files of importance for this project, namely:
 
-* Input files, structured by type of data, source of data, experimental method as one sees fit. 
+* Input files, structured by type of data, source of data, experimental method as one sees fit.
 * Processed data which is not saved in the repo due to privacy or size, linking to databases, temp-folders, who to ask for access.
 * Final Files of Importance. Everything that is considered an informative result and definitely all items that are included in the paper or supplement.
 
@@ -39,7 +39,7 @@ All information about files that can not easily be formatted into a table.
 * Method details before writing the method section
 * Method details so specific that they need not be published
 
-A table of individual mice and their weight used as covariate for a sequencing experiment should be saved as a file.
+A table of individual mice and their weight used as covariate for a sequencing experiment should be saved as a file and referenced in 00_Files.md.
 
 ### 01_Background.md
 
@@ -56,7 +56,7 @@ Here, the manuscript can be drafted. In 03\_Results.md, figures are implemented.
 
 ### environment.yml
 
-Ideally, the complete project can be run from the command line in a defined environment like conda, that takes care of all dependencies. Any environment or containerization service is possible, as seen fit. If graphical programs are used, whose results need to be exactly reproducible, the graphical program is started from the command line in the respective environment or container. In case of conda usage you can define a basic environment.yml that can be used to created the projects conda environment with `sh create_conda_env.sh`. Updates to an existing conda environment can be performed with `sh update_conda_from_env.sh` and the further modified conda environment can then mirrored to an updated environment.yml file with `sh update_environment.sh` to enable reproducable analysis steps.
+Ideally, the complete project can be run from the command line in a defined environment like conda, that takes care of all dependencies. Any environment or containerization service is possible, as seen fit. If graphical programs are used, whose results need to be exactly reproducible, the graphical program is started from the command line in the respective environment or container. In case of conda usage you can define a basic environment.yml that can be used to created the projects conda environment with `sh create_conda_env.sh`. Updates to an existing conda environment can be performed with `sh update_conda_from_env.sh` and the further modified conda environment can then be mirrored to an updated environment.yml file with `sh update_environment.sh` to enable reproducable analysis steps.
 
 ### Notes.md
 
@@ -96,15 +96,16 @@ An analysis step is the way from an input to an output that is an input to anoth
 
 * A wrapper bash-script which reruns the whole step.
 * Scripts that are called in the wrapper.
-* Directories local/, temp/ and/or results/.
+* Results, figures, log-files of this step.
+* a .gitignore file
 
-temp/ is used for any files that can be safely deleted, but are kept to study the workings of the script or to minimize time for a rerun. Could also be called work/. local/ is for results that are used later on, but which should not be synchronized with github because of size or privacy. results/ is for results and files used later on that can be uploaded to github safely.
+Use the .gitignore to ignore every file except the ones you specify to avoid pushing large files. Sensitive data should be saved outside the repository, to avoid accidental uploads.
 
-The goal of this structure is that you can run the wrapper script from inside the analysis folder and the step is completely reproduced.
+The goal of this structure is that you can run the wrapper script from inside the analysis folder and the step is completely reproduced, given you placed untracked files in the proper positions.
 
-### Dealing with intermediate files not in the repo
+### Dealing large and/or sensitive files
 
-Files in local/ directories are not synchronized with the repo, so after downloading the repo, a step depending on a "local" file cannot simply rerun. Prior to publication, such data can either be deposited in a data storage accessible for collaborators or we put up with it and rerun all steps.
+Files with sensitive data e.g. patient data should not be in the repository, and .gitignore-ing them is not human error-safe enough. Therefore, such data resides in external directories, which can be accessed drom within the repo with symbolic links called 00_RawData.ln for input data and localresults.ln for processed data. Add more **symbolic** links (`ln -s`) as you see fit. In your scripts, you can use these links in paths, to make it independent of where the data actually is.
 
 ## Credit
 
