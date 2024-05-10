@@ -1,11 +1,11 @@
-name: /work_ifs/sukmb428/conda_pkgs/locuszoom_env
+name: P2N_2020_023
 channels:
   - conda-forge
   - bioconda
   - defaults
 dependencies:
-  - python=2.7
+  - python
   - r-base
   - r-essentials
   - r-gridextra
-prefix: /work_ifs/sukmb428/conda_pkgs/locuszoom_env
+

@@ -1,8 +1,0 @@
-# Ignore everything in this directory
-*
-# Except these files
-# to prevent accidental commits
-!.gitignore
-!BerryHash.md5
-!HashBerries.sh
-!runHashBerries.sh

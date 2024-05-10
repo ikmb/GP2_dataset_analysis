@@ -1,0 +1,989 @@
+trait	trait_id	trait_name	description	value	value_description	alternative_value	type	source_token	source_name
+t5_year_of_birth	5	year_of_birth	Year of birth	1900 - 2030			continuous	QUPG	question form popgen
+t5_year_of_birth	5	year_of_birth	Year of birth	7777777	unreadable/inconsistent		continuous	QUPG	question form popgen
+t5_year_of_birth	5	year_of_birth	Year of birth	9999999	missing		continuous	QUPG	question form popgen
+t24_height	24	height	How tall are you (cm)?	35 - 220			continuous	QUPG	question form popgen
+t24_height	24	height	How tall are you (cm)?	7777777	unreadable/inconsistent		continuous	QUPG	question form popgen
+t24_height	24	height	How tall are you (cm)?	9999999	missing		continuous	QUPG	question form popgen
+t27_weight	27	weight	What is your weight (kg)?	2 - 250			continuous	QUPG	question form popgen
+t27_weight	27	weight	What is your weight (kg)?	7777777	unreadable/inconsistent		continuous	QUPG	question form popgen
+t27_weight	27	weight	What is your weight (kg)?	9999999	missing		continuous	QUPG	question form popgen
+t37_sample_age	37	sample_age	Age at blood sampling	0 - 120			continuous	ADPG	administrative/derived popgen
+t37_sample_age	37	sample_age	Age at blood sampling	7777777	unreadable/inconsistent		continuous	ADPG	administrative/derived popgen
+t37_sample_age	37	sample_age	Age at blood sampling	9999999	missing		continuous	ADPG	administrative/derived popgen
+t38_smoke_cigarettes_n	38	smoke_cigarettes_n	How many cigarettes do you or did you smoke per day?	0 - 280			continuous	QUPG	question form popgen
+t38_smoke_cigarettes_n	38	smoke_cigarettes_n	How many cigarettes do you or did you smoke per day?	111	1 Päckchen		continuous	QUPG	question form popgen
+t38_smoke_cigarettes_n	38	smoke_cigarettes_n	How many cigarettes do you or did you smoke per day?	222	2 Päckchen		continuous	QUPG	question form popgen
+t38_smoke_cigarettes_n	38	smoke_cigarettes_n	How many cigarettes do you or did you smoke per day?	333	< 1 Zigarette pro Tag		continuous	QUPG	question form popgen
+t38_smoke_cigarettes_n	38	smoke_cigarettes_n	How many cigarettes do you or did you smoke per day?	444	< 10 Zigaretten		continuous	QUPG	question form popgen
+t38_smoke_cigarettes_n	38	smoke_cigarettes_n	How many cigarettes do you or did you smoke per day?	7777777	unreadable/inconsistent		continuous	QUPG	question form popgen
+t38_smoke_cigarettes_n	38	smoke_cigarettes_n	How many cigarettes do you or did you smoke per day?	9999999	missing		continuous	QUPG	question form popgen
+t40_smoke_years	40	smoke_years	How many years have you smoked?	0 - 70			continuous	QUPG	question form popgen
+t40_smoke_years	40	smoke_years	How many years have you smoked?	7777777	unreadable/inconsistent		continuous	QUPG	question form popgen
+t40_smoke_years	40	smoke_years	How many years have you smoked?	9999999	missing		continuous	QUPG	question form popgen
+t276_BMI	276	BMI	BMI (Body Mass Index: (weight[kg]/((height[cm]/100)^2)	10 - 90			continuous	QUPG	question form popgen
+t276_BMI	276	BMI	BMI (Body Mass Index: (weight[kg]/((height[cm]/100)^2)	7777777	unreadable/inconsistent		continuous	QUPG	question form popgen
+t276_BMI	276	BMI	BMI (Body Mass Index: (weight[kg]/((height[cm]/100)^2)	9999999	missing		continuous	QUPG	question form popgen
+t289_smoke_pipes_cigars_n	289	smoke_pipes_cigars_n	How many pipes or cigars did/ do you smoke per day?	0 - 40			continuous	QUPG	question form popgen
+t289_smoke_pipes_cigars_n	289	smoke_pipes_cigars_n	How many pipes or cigars did/ do you smoke per day?	7777777	unreadable/inconsistent		continuous	QUPG	question form popgen
+t289_smoke_pipes_cigars_n	289	smoke_pipes_cigars_n	How many pipes or cigars did/ do you smoke per day?	9999999	missing		continuous	QUPG	question form popgen
+t305_smoke_quit_age	305	smoke_quit_age	What age did you quit smoking at?	0 - 110			continuous	QUPG	question form popgen
+t305_smoke_quit_age	305	smoke_quit_age	What age did you quit smoking at?	7777777	unreadable/inconsistent		continuous	QUPG	question form popgen
+t305_smoke_quit_age	305	smoke_quit_age	What age did you quit smoking at?	9999999	missing		continuous	QUPG	question form popgen
+t306_smoke_start_age	306	smoke_start_age	What age did you start smoking at?	0 - 110			continuous	QUPG	question form popgen
+t306_smoke_start_age	306	smoke_start_age	What age did you start smoking at?	7777777	unreadable/inconsistent		continuous	QUPG	question form popgen
+t306_smoke_start_age	306	smoke_start_age	What age did you start smoking at?	9999999	missing		continuous	QUPG	question form popgen
+t307_smoke_quit_year	307	smoke_quit_year	Which year did you quit smoking?	1900 - 2030			continuous	QUPG	question form popgen
+t307_smoke_quit_year	307	smoke_quit_year	Which year did you quit smoking?	7777777	unreadable/inconsistent		continuous	QUPG	question form popgen
+t307_smoke_quit_year	307	smoke_quit_year	Which year did you quit smoking?	9999999	missing		continuous	QUPG	question form popgen
+t308_smoke_start_year	308	smoke_start_year	Which year did you start smoking?	1900 - 2030			continuous	QUPG	question form popgen
+t308_smoke_start_year	308	smoke_start_year	Which year did you start smoking?	7777777	unreadable/inconsistent		continuous	QUPG	question form popgen
+t308_smoke_start_year	308	smoke_start_year	Which year did you start smoking?	9999999	missing		continuous	QUPG	question form popgen
+t366_diabetes_year	366	diabetes_year	Which year did the diabetes occur?	1900 - 2030			continuous	QUPG	question form popgen
+t366_diabetes_year	366	diabetes_year	Which year did the diabetes occur?	7777777	unreadable/inconsistent		continuous	QUPG	question form popgen
+t366_diabetes_year	366	diabetes_year	Which year did the diabetes occur?	9999999	missing		continuous	QUPG	question form popgen
+t375_liver_disease1_year	375	liver_disease1_year	Which year did the first liver disease occur?	1900 - 2030			continuous	QUPG	question form popgen
+t375_liver_disease1_year	375	liver_disease1_year	Which year did the first liver disease occur?	7777777	unreadable/inconsistent		continuous	QUPG	question form popgen
+t375_liver_disease1_year	375	liver_disease1_year	Which year did the first liver disease occur?	9999999	missing		continuous	QUPG	question form popgen
+t376_liver_disease2_year	376	liver_disease2_year	Which year did the second liver disease occur?	1900 - 2030			continuous	QUPG	question form popgen
+t376_liver_disease2_year	376	liver_disease2_year	Which year did the second liver disease occur?	7777777	unreadable/inconsistent		continuous	QUPG	question form popgen
+t376_liver_disease2_year	376	liver_disease2_year	Which year did the second liver disease occur?	9999999	missing		continuous	QUPG	question form popgen
+t392_diabetes_age	392	diabetes_age	How old have you been when the diabetes occured?	0 - 110			continuous	QUPG	question form popgen
+t392_diabetes_age	392	diabetes_age	How old have you been when the diabetes occured?	7777777	unreadable/inconsistent		continuous	QUPG	question form popgen
+t392_diabetes_age	392	diabetes_age	How old have you been when the diabetes occured?	9999999	missing		continuous	QUPG	question form popgen
+t403_liver_disease1_age	403	liver_disease1_age	How old have you been when the first liver disease occured?	0 - 110			continuous	QUPG	question form popgen
+t403_liver_disease1_age	403	liver_disease1_age	How old have you been when the first liver disease occured?	7777777	unreadable/inconsistent		continuous	QUPG	question form popgen
+t403_liver_disease1_age	403	liver_disease1_age	How old have you been when the first liver disease occured?	9999999	missing		continuous	QUPG	question form popgen
+t404_liver_disease2_age	404	liver_disease2_age	How old have you been when the second liver disease occured?	0 - 110			continuous	QUPG	question form popgen
+t404_liver_disease2_age	404	liver_disease2_age	How old have you been when the second liver disease occured?	7777777	unreadable/inconsistent		continuous	QUPG	question form popgen
+t404_liver_disease2_age	404	liver_disease2_age	How old have you been when the second liver disease occured?	9999999	missing		continuous	QUPG	question form popgen
+t722_smoking_habits_3m	722	smoking_habits_3m	What are your smoking habits?	0	unknown		discrete	QUPG	question form popgen
+t722_smoking_habits_3m	722	smoking_habits_3m	What are your smoking habits?	1	never smoked		discrete	QUPG	question form popgen
+t722_smoking_habits_3m	722	smoking_habits_3m	What are your smoking habits?	2	smoked less than 3 months		discrete	QUPG	question form popgen
+t722_smoking_habits_3m	722	smoking_habits_3m	What are your smoking habits?	3	smoked in the past		discrete	QUPG	question form popgen
+t722_smoking_habits_3m	722	smoking_habits_3m	What are your smoking habits?	4	smoking now		discrete	QUPG	question form popgen
+t722_smoking_habits_3m	722	smoking_habits_3m	What are your smoking habits?	7777777	unreadable/inconsistent		discrete	QUPG	question form popgen
+t722_smoking_habits_3m	722	smoking_habits_3m	What are your smoking habits?	9999999	missing		discrete	QUPG	question form popgen
+t883_gender	883	gender	gender (add new value = 3 for all questionnaires collected since 2019 exclusive FOC_F2)	0	unknown		discrete	QUPG	question form popgen
+t883_gender	883	gender	gender (add new value = 3 for all questionnaires collected since 2019 exclusive FOC_F2)	1	male		discrete	QUPG	question form popgen
+t883_gender	883	gender	gender (add new value = 3 for all questionnaires collected since 2019 exclusive FOC_F2)	2	female		discrete	QUPG	question form popgen
+t883_gender	883	gender	gender (add new value = 3 for all questionnaires collected since 2019 exclusive FOC_F2)	3	other		discrete	QUPG	question form popgen
+t883_gender	883	gender	gender (add new value = 3 for all questionnaires collected since 2019 exclusive FOC_F2)	7777777	unreadable/inconsistent		discrete	QUPG	question form popgen
+t883_gender	883	gender	gender (add new value = 3 for all questionnaires collected since 2019 exclusive FOC_F2)	9999999	missing		discrete	QUPG	question form popgen
+t899_medication_regularly	899	medication_regularly	Do you take medicaments regularly?	0	unknown		discrete	QUPG	question form popgen
+t899_medication_regularly	899	medication_regularly	Do you take medicaments regularly?	1	yes		discrete	QUPG	question form popgen
+t899_medication_regularly	899	medication_regularly	Do you take medicaments regularly?	2	no		discrete	QUPG	question form popgen
+t899_medication_regularly	899	medication_regularly	Do you take medicaments regularly?	7777777	unreadable/inconsistent		discrete	QUPG	question form popgen
+t899_medication_regularly	899	medication_regularly	Do you take medicaments regularly?	9999999	missing		discrete	QUPG	question form popgen
+t903_diabetes	903	diabetes	Has diabetes been diagnosed (follow-up studies before 05/2016: after the previous date of sampling)?	0	unknown		discrete	QUPG	question form popgen
+t903_diabetes	903	diabetes	Has diabetes been diagnosed (follow-up studies before 05/2016: after the previous date of sampling)?	1	yes		discrete	QUPG	question form popgen
+t903_diabetes	903	diabetes	Has diabetes been diagnosed (follow-up studies before 05/2016: after the previous date of sampling)?	2	no		discrete	QUPG	question form popgen
+t903_diabetes	903	diabetes	Has diabetes been diagnosed (follow-up studies before 05/2016: after the previous date of sampling)?	3	do not know/ not examined		discrete	QUPG	question form popgen
+t903_diabetes	903	diabetes	Has diabetes been diagnosed (follow-up studies before 05/2016: after the previous date of sampling)?	7777777	unreadable/inconsistent		discrete	QUPG	question form popgen
+t903_diabetes	903	diabetes	Has diabetes been diagnosed (follow-up studies before 05/2016: after the previous date of sampling)?	9999999	missing		discrete	QUPG	question form popgen
+t904_diabetes_type	904	diabetes_type	Which type of diabetes has been diagnosed?	0	unknown		discrete	QUPG	question form popgen
+t904_diabetes_type	904	diabetes_type	Which type of diabetes has been diagnosed?	1	juvenile-onset diabetes (I)		discrete	QUPG	question form popgen
+t904_diabetes_type	904	diabetes_type	Which type of diabetes has been diagnosed?	2	adult onset diabetes (II)		discrete	QUPG	question form popgen
+t904_diabetes_type	904	diabetes_type	Which type of diabetes has been diagnosed?	3	other diabetes		discrete	QUPG	question form popgen
+t904_diabetes_type	904	diabetes_type	Which type of diabetes has been diagnosed?	4	do not know		discrete	QUPG	question form popgen
+t904_diabetes_type	904	diabetes_type	Which type of diabetes has been diagnosed?	7777777	unreadable/inconsistent		discrete	QUPG	question form popgen
+t904_diabetes_type	904	diabetes_type	Which type of diabetes has been diagnosed?	9999999	missing		discrete	QUPG	question form popgen
+t1598_medicaments_which	1598	medicaments_which	Description field: Which medicaments do you take regularly?	1	exists (see Excel file)		discrete	QUPG	question form popgen
+t1598_medicaments_which	1598	medicaments_which	Description field: Which medicaments do you take regularly?	7777777	unreadable/inconsistent		discrete	QUPG	question form popgen
+t1598_medicaments_which	1598	medicaments_which	Description field: Which medicaments do you take regularly?	9999999	missing		discrete	QUPG	question form popgen
+t1663_gender	1663	gender	gender (add new value = 3 for all questionnaires collected since 2019 exclusive FOC_F2)	1	male		discrete	SACS	sample accompanying sheet
+t1663_gender	1663	gender	gender (add new value = 3 for all questionnaires collected since 2019 exclusive FOC_F2)	2	female		discrete	SACS	sample accompanying sheet
+t1663_gender	1663	gender	gender (add new value = 3 for all questionnaires collected since 2019 exclusive FOC_F2)	3	other		discrete	SACS	sample accompanying sheet
+t1663_gender	1663	gender	gender (add new value = 3 for all questionnaires collected since 2019 exclusive FOC_F2)	7777777	unreadable/inconsistent		discrete	SACS	sample accompanying sheet
+t1663_gender	1663	gender	gender (add new value = 3 for all questionnaires collected since 2019 exclusive FOC_F2)	9999999	missing		discrete	SACS	sample accompanying sheet
+t1664_year_of_birth	1664	year_of_birth	Year of birth	1900 - 2030			continuous	SACS	sample accompanying sheet
+t1664_year_of_birth	1664	year_of_birth	Year of birth	7777777	unreadable/inconsistent		continuous	SACS	sample accompanying sheet
+t1664_year_of_birth	1664	year_of_birth	Year of birth	9999999	missing		continuous	SACS	sample accompanying sheet
+t1693_passive_smoking	1693	passive_smoking	How often do you spend time in a room with smoking persons?	1	every day		discrete	QUPG	question form popgen
+t1693_passive_smoking	1693	passive_smoking	How often do you spend time in a room with smoking persons?	2	several times a week		discrete	QUPG	question form popgen
+t1693_passive_smoking	1693	passive_smoking	How often do you spend time in a room with smoking persons?	3	once a week		discrete	QUPG	question form popgen
+t1693_passive_smoking	1693	passive_smoking	How often do you spend time in a room with smoking persons?	4	less than once a week		discrete	QUPG	question form popgen
+t1693_passive_smoking	1693	passive_smoking	How often do you spend time in a room with smoking persons?	5	never		discrete	QUPG	question form popgen
+t1693_passive_smoking	1693	passive_smoking	How often do you spend time in a room with smoking persons?	7777777	unreadable/inconsistent		discrete	QUPG	question form popgen
+t1693_passive_smoking	1693	passive_smoking	How often do you spend time in a room with smoking persons?	9999999	missing		discrete	QUPG	question form popgen
+t1694_passive_smoking_hour	1694	passive_smoking_hour	How many hours per day do you spend in a room with smoking persons?	1	< 1 hour		discrete	QUPG	question form popgen
+t1694_passive_smoking_hour	1694	passive_smoking_hour	How many hours per day do you spend in a room with smoking persons?	2	1 to 6 hours		discrete	QUPG	question form popgen
+t1694_passive_smoking_hour	1694	passive_smoking_hour	How many hours per day do you spend in a room with smoking persons?	3	> 6 hours		discrete	QUPG	question form popgen
+t1694_passive_smoking_hour	1694	passive_smoking_hour	How many hours per day do you spend in a room with smoking persons?	7777777	unreadable/inconsistent		discrete	QUPG	question form popgen
+t1694_passive_smoking_hour	1694	passive_smoking_hour	How many hours per day do you spend in a room with smoking persons?	9999999	missing		discrete	QUPG	question form popgen
+t1695_smoke_baby	1695	smoke_baby	Did your parents smoke regularly when your were a baby?	1	yes		discrete	QUPG	question form popgen
+t1695_smoke_baby	1695	smoke_baby	Did your parents smoke regularly when your were a baby?	2	no		discrete	QUPG	question form popgen
+t1695_smoke_baby	1695	smoke_baby	Did your parents smoke regularly when your were a baby?	3	do not know		discrete	QUPG	question form popgen
+t1695_smoke_baby	1695	smoke_baby	Did your parents smoke regularly when your were a baby?	7777777	unreadable/inconsistent		discrete	QUPG	question form popgen
+t1695_smoke_baby	1695	smoke_baby	Did your parents smoke regularly when your were a baby?	9999999	missing		discrete	QUPG	question form popgen
+t1768_medicament_C	1768	medicament_C	Which medicaments do you take regularly?	1	hormone preparations		discrete	QUPG	question form popgen
+t1768_medicament_C	1768	medicament_C	Which medicaments do you take regularly?	2	birth control pill		discrete	QUPG	question form popgen
+t1768_medicament_C	1768	medicament_C	Which medicaments do you take regularly?	3	cortisone		discrete	QUPG	question form popgen
+t1768_medicament_C	1768	medicament_C	Which medicaments do you take regularly?	4	pain medication		discrete	QUPG	question form popgen
+t1768_medicament_C	1768	medicament_C	Which medicaments do you take regularly?	5	other		discrete	QUPG	question form popgen
+t1768_medicament_C	1768	medicament_C	Which medicaments do you take regularly?	7777777	unreadable/inconsistent		discrete	QUPG	question form popgen
+t1768_medicament_C	1768	medicament_C	Which medicaments do you take regularly?	9999999	missing		discrete	QUPG	question form popgen
+t1769_medicament_since	1769	medicament_since	Since when (year) do you take the medicament?	1900 - 2030			continuous	QUPG	question form popgen
+t1769_medicament_since	1769	medicament_since	Since when (year) do you take the medicament?	7777777	unreadable/inconsistent		continuous	QUPG	question form popgen
+t1769_medicament_since	1769	medicament_since	Since when (year) do you take the medicament?	9999999	missing		continuous	QUPG	question form popgen
+t1770_medicament2_C	1770	medicament2_C	Which medicaments do you take regularly?	1	hormone preparations		discrete	QUPG	question form popgen
+t1770_medicament2_C	1770	medicament2_C	Which medicaments do you take regularly?	2	birth control pill		discrete	QUPG	question form popgen
+t1770_medicament2_C	1770	medicament2_C	Which medicaments do you take regularly?	3	cortisone		discrete	QUPG	question form popgen
+t1770_medicament2_C	1770	medicament2_C	Which medicaments do you take regularly?	4	pain medication		discrete	QUPG	question form popgen
+t1770_medicament2_C	1770	medicament2_C	Which medicaments do you take regularly?	5	other		discrete	QUPG	question form popgen
+t1770_medicament2_C	1770	medicament2_C	Which medicaments do you take regularly?	7777777	unreadable/inconsistent		discrete	QUPG	question form popgen
+t1770_medicament2_C	1770	medicament2_C	Which medicaments do you take regularly?	9999999	missing		discrete	QUPG	question form popgen
+t1771_medicament_since_2	1771	medicament_since_2	Since when (year) do you take the medicament? (2)	1900 - 2030			continuous	QUPG	question form popgen
+t1771_medicament_since_2	1771	medicament_since_2	Since when (year) do you take the medicament? (2)	7777777	unreadable/inconsistent		continuous	QUPG	question form popgen
+t1771_medicament_since_2	1771	medicament_since_2	Since when (year) do you take the medicament? (2)	9999999	missing		continuous	QUPG	question form popgen
+t1772_medicament3_C	1772	medicament3_C	Which medicaments do you take regularly?	1	hormone preparations		discrete	QUPG	question form popgen
+t1772_medicament3_C	1772	medicament3_C	Which medicaments do you take regularly?	2	birth control pill		discrete	QUPG	question form popgen
+t1772_medicament3_C	1772	medicament3_C	Which medicaments do you take regularly?	3	cortisone		discrete	QUPG	question form popgen
+t1772_medicament3_C	1772	medicament3_C	Which medicaments do you take regularly?	4	pain medication		discrete	QUPG	question form popgen
+t1772_medicament3_C	1772	medicament3_C	Which medicaments do you take regularly?	5	other		discrete	QUPG	question form popgen
+t1772_medicament3_C	1772	medicament3_C	Which medicaments do you take regularly?	7777777	unreadable/inconsistent		discrete	QUPG	question form popgen
+t1772_medicament3_C	1772	medicament3_C	Which medicaments do you take regularly?	9999999	missing		discrete	QUPG	question form popgen
+t1773_medicament_since_3	1773	medicament_since_3	Since when (year) do you take the medicament? (3)	1900 - 2030			continuous	QUPG	question form popgen
+t1773_medicament_since_3	1773	medicament_since_3	Since when (year) do you take the medicament? (3)	7777777	unreadable/inconsistent		continuous	QUPG	question form popgen
+t1773_medicament_since_3	1773	medicament_since_3	Since when (year) do you take the medicament? (3)	9999999	missing		continuous	QUPG	question form popgen
+t1774_antibiotics_6_month	1774	antibiotics_6_month	Have you taken antibiotics during the last 6 months?	1	yes		discrete	QUPG	question form popgen
+t1774_antibiotics_6_month	1774	antibiotics_6_month	Have you taken antibiotics during the last 6 months?	2	no		discrete	QUPG	question form popgen
+t1774_antibiotics_6_month	1774	antibiotics_6_month	Have you taken antibiotics during the last 6 months?	3	do not know		discrete	QUPG	question form popgen
+t1774_antibiotics_6_month	1774	antibiotics_6_month	Have you taken antibiotics during the last 6 months?	7777777	unreadable/inconsistent		discrete	QUPG	question form popgen
+t1774_antibiotics_6_month	1774	antibiotics_6_month	Have you taken antibiotics during the last 6 months?	9999999	missing		discrete	QUPG	question form popgen
+t1799_IBD_or_suspicion	1799	IBD_or_suspicion	Have you been diagnosed with an inflammatory bowel disease or is an IBD suspected (follow-up of studies before 05/2016: after the previous date of sampling)?	1	yes		discrete	QUPG	question form popgen
+t1799_IBD_or_suspicion	1799	IBD_or_suspicion	Have you been diagnosed with an inflammatory bowel disease or is an IBD suspected (follow-up of studies before 05/2016: after the previous date of sampling)?	2	no		discrete	QUPG	question form popgen
+t1799_IBD_or_suspicion	1799	IBD_or_suspicion	Have you been diagnosed with an inflammatory bowel disease or is an IBD suspected (follow-up of studies before 05/2016: after the previous date of sampling)?	3	suspicion		discrete	QUPG	question form popgen
+t1799_IBD_or_suspicion	1799	IBD_or_suspicion	Have you been diagnosed with an inflammatory bowel disease or is an IBD suspected (follow-up of studies before 05/2016: after the previous date of sampling)?	7777777	unreadable/inconsistent		discrete	QUPG	question form popgen
+t1799_IBD_or_suspicion	1799	IBD_or_suspicion	Have you been diagnosed with an inflammatory bowel disease or is an IBD suspected (follow-up of studies before 05/2016: after the previous date of sampling)?	9999999	missing		discrete	QUPG	question form popgen
+t1800_IBD_type_C	1800	IBD_type_C	Which type of inflammatory bowel disease was diagnosed?	0	unknown		discrete	QUPG	question form popgen
+t1800_IBD_type_C	1800	IBD_type_C	Which type of inflammatory bowel disease was diagnosed?	1	Crohn´s disease		discrete	QUPG	question form popgen
+t1800_IBD_type_C	1800	IBD_type_C	Which type of inflammatory bowel disease was diagnosed?	2	ulcerative colitis		discrete	QUPG	question form popgen
+t1800_IBD_type_C	1800	IBD_type_C	Which type of inflammatory bowel disease was diagnosed?	3	IBD, not defined		discrete	QUPG	question form popgen
+t1800_IBD_type_C	1800	IBD_type_C	Which type of inflammatory bowel disease was diagnosed?	4	suspicion of IBD		discrete	QUPG	question form popgen
+t1800_IBD_type_C	1800	IBD_type_C	Which type of inflammatory bowel disease was diagnosed?	5	other IBD		discrete	QUPG	question form popgen
+t1800_IBD_type_C	1800	IBD_type_C	Which type of inflammatory bowel disease was diagnosed?	7777777	unreadable/inconsistent		discrete	QUPG	question form popgen
+t1800_IBD_type_C	1800	IBD_type_C	Which type of inflammatory bowel disease was diagnosed?	9999999	missing		discrete	QUPG	question form popgen
+t1801_IBD_year	1801	IBD_year	In which year was your inflammatory bowel disease first diagnosed?	1900 - 2030			continuous	QUPG	question form popgen
+t1801_IBD_year	1801	IBD_year	In which year was your inflammatory bowel disease first diagnosed?	7777777	unreadable/inconsistent		continuous	QUPG	question form popgen
+t1801_IBD_year	1801	IBD_year	In which year was your inflammatory bowel disease first diagnosed?	9999999	missing		continuous	QUPG	question form popgen
+t1802_IBD_age	1802	IBD_age	How old were you when your inflammatory bowel disease was diagnosed?	0 - 120			continuous	QUPG	question form popgen
+t1802_IBD_age	1802	IBD_age	How old were you when your inflammatory bowel disease was diagnosed?	7777777	unreadable/inconsistent		continuous	QUPG	question form popgen
+t1802_IBD_age	1802	IBD_age	How old were you when your inflammatory bowel disease was diagnosed?	9999999	missing		continuous	QUPG	question form popgen
+t1803_IBD_type2_C	1803	IBD_type2_C	Which type of inflammatory bowel disease was diagnosed? (2)	1	Crohn´s disease		discrete	QUPG	question form popgen
+t1803_IBD_type2_C	1803	IBD_type2_C	Which type of inflammatory bowel disease was diagnosed? (2)	2	ulcerative colitis		discrete	QUPG	question form popgen
+t1803_IBD_type2_C	1803	IBD_type2_C	Which type of inflammatory bowel disease was diagnosed? (2)	3	IBD, not defined		discrete	QUPG	question form popgen
+t1803_IBD_type2_C	1803	IBD_type2_C	Which type of inflammatory bowel disease was diagnosed? (2)	4	suspicion of IBD		discrete	QUPG	question form popgen
+t1803_IBD_type2_C	1803	IBD_type2_C	Which type of inflammatory bowel disease was diagnosed? (2)	5	other IBD		discrete	QUPG	question form popgen
+t1803_IBD_type2_C	1803	IBD_type2_C	Which type of inflammatory bowel disease was diagnosed? (2)	7777777	unreadable/inconsistent		discrete	QUPG	question form popgen
+t1803_IBD_type2_C	1803	IBD_type2_C	Which type of inflammatory bowel disease was diagnosed? (2)	9999999	missing		discrete	QUPG	question form popgen
+t1804_IBD_year2	1804	IBD_year2	In which year was your inflammatory bowel disease first diagnosed? (2)	1900 - 2030			continuous	QUPG	question form popgen
+t1804_IBD_year2	1804	IBD_year2	In which year was your inflammatory bowel disease first diagnosed? (2)	7777777	unreadable/inconsistent		continuous	QUPG	question form popgen
+t1804_IBD_year2	1804	IBD_year2	In which year was your inflammatory bowel disease first diagnosed? (2)	9999999	missing		continuous	QUPG	question form popgen
+t1805_IBD_age2	1805	IBD_age2	How old were you when your inflammatory bowel disease was diagnosed? (2)	0 - 120			continuous	QUPG	question form popgen
+t1805_IBD_age2	1805	IBD_age2	How old were you when your inflammatory bowel disease was diagnosed? (2)	7777777	unreadable/inconsistent		continuous	QUPG	question form popgen
+t1805_IBD_age2	1805	IBD_age2	How old were you when your inflammatory bowel disease was diagnosed? (2)	9999999	missing		continuous	QUPG	question form popgen
+t1812_IBD_symptom_1	1812	IBD_symptom_1	Which were the first symptoms leading you to a physician? (1)	0	unknown		discrete	QUPG	question form popgen
+t1812_IBD_symptom_1	1812	IBD_symptom_1	Which were the first symptoms leading you to a physician? (1)	1	diarrhea		discrete	QUPG	question form popgen
+t1812_IBD_symptom_1	1812	IBD_symptom_1	Which were the first symptoms leading you to a physician? (1)	2	abdominal pain		discrete	QUPG	question form popgen
+t1812_IBD_symptom_1	1812	IBD_symptom_1	Which were the first symptoms leading you to a physician? (1)	3	nausea		discrete	QUPG	question form popgen
+t1812_IBD_symptom_1	1812	IBD_symptom_1	Which were the first symptoms leading you to a physician? (1)	4	reduction of weight		discrete	QUPG	question form popgen
+t1812_IBD_symptom_1	1812	IBD_symptom_1	Which were the first symptoms leading you to a physician? (1)	5	blood in stool		discrete	QUPG	question form popgen
+t1812_IBD_symptom_1	1812	IBD_symptom_1	Which were the first symptoms leading you to a physician? (1)	6	anemia		discrete	QUPG	question form popgen
+t1812_IBD_symptom_1	1812	IBD_symptom_1	Which were the first symptoms leading you to a physician? (1)	7	abdominal induration		discrete	QUPG	question form popgen
+t1812_IBD_symptom_1	1812	IBD_symptom_1	Which were the first symptoms leading you to a physician? (1)	8	other		discrete	QUPG	question form popgen
+t1812_IBD_symptom_1	1812	IBD_symptom_1	Which were the first symptoms leading you to a physician? (1)	7777777	unreadable/inconsistent		discrete	QUPG	question form popgen
+t1812_IBD_symptom_1	1812	IBD_symptom_1	Which were the first symptoms leading you to a physician? (1)	9999999	missing		discrete	QUPG	question form popgen
+t1813_IBD_symptom_2	1813	IBD_symptom_2	Which were the first symptoms leading you to a physician? (2)	1	diarrhea		discrete	QUPG	question form popgen
+t1813_IBD_symptom_2	1813	IBD_symptom_2	Which were the first symptoms leading you to a physician? (2)	2	abdominal pain		discrete	QUPG	question form popgen
+t1813_IBD_symptom_2	1813	IBD_symptom_2	Which were the first symptoms leading you to a physician? (2)	3	nausea		discrete	QUPG	question form popgen
+t1813_IBD_symptom_2	1813	IBD_symptom_2	Which were the first symptoms leading you to a physician? (2)	4	reduction of weight		discrete	QUPG	question form popgen
+t1813_IBD_symptom_2	1813	IBD_symptom_2	Which were the first symptoms leading you to a physician? (2)	5	blood in stool		discrete	QUPG	question form popgen
+t1813_IBD_symptom_2	1813	IBD_symptom_2	Which were the first symptoms leading you to a physician? (2)	6	anemia		discrete	QUPG	question form popgen
+t1813_IBD_symptom_2	1813	IBD_symptom_2	Which were the first symptoms leading you to a physician? (2)	7	abdominal induration		discrete	QUPG	question form popgen
+t1813_IBD_symptom_2	1813	IBD_symptom_2	Which were the first symptoms leading you to a physician? (2)	8	other		discrete	QUPG	question form popgen
+t1813_IBD_symptom_2	1813	IBD_symptom_2	Which were the first symptoms leading you to a physician? (2)	7777777	unreadable/inconsistent		discrete	QUPG	question form popgen
+t1813_IBD_symptom_2	1813	IBD_symptom_2	Which were the first symptoms leading you to a physician? (2)	9999999	missing		discrete	QUPG	question form popgen
+t1814_IBD_symptom_3	1814	IBD_symptom_3	Which were the first symptoms leading you to a physician? (3)	1	diarrhea		discrete	QUPG	question form popgen
+t1814_IBD_symptom_3	1814	IBD_symptom_3	Which were the first symptoms leading you to a physician? (3)	2	abdominal pain		discrete	QUPG	question form popgen
+t1814_IBD_symptom_3	1814	IBD_symptom_3	Which were the first symptoms leading you to a physician? (3)	3	nausea		discrete	QUPG	question form popgen
+t1814_IBD_symptom_3	1814	IBD_symptom_3	Which were the first symptoms leading you to a physician? (3)	4	reduction of weight		discrete	QUPG	question form popgen
+t1814_IBD_symptom_3	1814	IBD_symptom_3	Which were the first symptoms leading you to a physician? (3)	5	blood in stool		discrete	QUPG	question form popgen
+t1814_IBD_symptom_3	1814	IBD_symptom_3	Which were the first symptoms leading you to a physician? (3)	6	anemia		discrete	QUPG	question form popgen
+t1814_IBD_symptom_3	1814	IBD_symptom_3	Which were the first symptoms leading you to a physician? (3)	7	abdominal induration		discrete	QUPG	question form popgen
+t1814_IBD_symptom_3	1814	IBD_symptom_3	Which were the first symptoms leading you to a physician? (3)	8	other		discrete	QUPG	question form popgen
+t1814_IBD_symptom_3	1814	IBD_symptom_3	Which were the first symptoms leading you to a physician? (3)	7777777	unreadable/inconsistent		discrete	QUPG	question form popgen
+t1814_IBD_symptom_3	1814	IBD_symptom_3	Which were the first symptoms leading you to a physician? (3)	9999999	missing		discrete	QUPG	question form popgen
+t1815_IBD_symptom_4	1815	IBD_symptom_4	Which were the first symptoms leading you to a physician? (4)	1	diarrhea		discrete	QUPG	question form popgen
+t1815_IBD_symptom_4	1815	IBD_symptom_4	Which were the first symptoms leading you to a physician? (4)	2	abdominal pain		discrete	QUPG	question form popgen
+t1815_IBD_symptom_4	1815	IBD_symptom_4	Which were the first symptoms leading you to a physician? (4)	3	nausea		discrete	QUPG	question form popgen
+t1815_IBD_symptom_4	1815	IBD_symptom_4	Which were the first symptoms leading you to a physician? (4)	4	reduction of weight		discrete	QUPG	question form popgen
+t1815_IBD_symptom_4	1815	IBD_symptom_4	Which were the first symptoms leading you to a physician? (4)	5	blood in stool		discrete	QUPG	question form popgen
+t1815_IBD_symptom_4	1815	IBD_symptom_4	Which were the first symptoms leading you to a physician? (4)	6	anemia		discrete	QUPG	question form popgen
+t1815_IBD_symptom_4	1815	IBD_symptom_4	Which were the first symptoms leading you to a physician? (4)	7	abdominal induration		discrete	QUPG	question form popgen
+t1815_IBD_symptom_4	1815	IBD_symptom_4	Which were the first symptoms leading you to a physician? (4)	8	other		discrete	QUPG	question form popgen
+t1815_IBD_symptom_4	1815	IBD_symptom_4	Which were the first symptoms leading you to a physician? (4)	7777777	unreadable/inconsistent		discrete	QUPG	question form popgen
+t1815_IBD_symptom_4	1815	IBD_symptom_4	Which were the first symptoms leading you to a physician? (4)	9999999	missing		discrete	QUPG	question form popgen
+t1816_IBD_symptom_5	1816	IBD_symptom_5	Which were the first symptoms leading you to a physician? (5)	1	diarrhea		discrete	QUPG	question form popgen
+t1816_IBD_symptom_5	1816	IBD_symptom_5	Which were the first symptoms leading you to a physician? (5)	2	abdominal pain		discrete	QUPG	question form popgen
+t1816_IBD_symptom_5	1816	IBD_symptom_5	Which were the first symptoms leading you to a physician? (5)	3	nausea		discrete	QUPG	question form popgen
+t1816_IBD_symptom_5	1816	IBD_symptom_5	Which were the first symptoms leading you to a physician? (5)	4	reduction of weight		discrete	QUPG	question form popgen
+t1816_IBD_symptom_5	1816	IBD_symptom_5	Which were the first symptoms leading you to a physician? (5)	5	blood in stool		discrete	QUPG	question form popgen
+t1816_IBD_symptom_5	1816	IBD_symptom_5	Which were the first symptoms leading you to a physician? (5)	6	anemia		discrete	QUPG	question form popgen
+t1816_IBD_symptom_5	1816	IBD_symptom_5	Which were the first symptoms leading you to a physician? (5)	7	abdominal induration		discrete	QUPG	question form popgen
+t1816_IBD_symptom_5	1816	IBD_symptom_5	Which were the first symptoms leading you to a physician? (5)	8	other		discrete	QUPG	question form popgen
+t1816_IBD_symptom_5	1816	IBD_symptom_5	Which were the first symptoms leading you to a physician? (5)	7777777	unreadable/inconsistent		discrete	QUPG	question form popgen
+t1816_IBD_symptom_5	1816	IBD_symptom_5	Which were the first symptoms leading you to a physician? (5)	9999999	missing		discrete	QUPG	question form popgen
+t1817_IBD_symptom_6	1817	IBD_symptom_6	Which were the first symptoms leading you to a physician? (6)	1	diarrhea		discrete	QUPG	question form popgen
+t1817_IBD_symptom_6	1817	IBD_symptom_6	Which were the first symptoms leading you to a physician? (6)	2	abdominal pain		discrete	QUPG	question form popgen
+t1817_IBD_symptom_6	1817	IBD_symptom_6	Which were the first symptoms leading you to a physician? (6)	3	nausea		discrete	QUPG	question form popgen
+t1817_IBD_symptom_6	1817	IBD_symptom_6	Which were the first symptoms leading you to a physician? (6)	4	reduction of weight		discrete	QUPG	question form popgen
+t1817_IBD_symptom_6	1817	IBD_symptom_6	Which were the first symptoms leading you to a physician? (6)	5	blood in stool		discrete	QUPG	question form popgen
+t1817_IBD_symptom_6	1817	IBD_symptom_6	Which were the first symptoms leading you to a physician? (6)	6	anemia		discrete	QUPG	question form popgen
+t1817_IBD_symptom_6	1817	IBD_symptom_6	Which were the first symptoms leading you to a physician? (6)	7	abdominal induration		discrete	QUPG	question form popgen
+t1817_IBD_symptom_6	1817	IBD_symptom_6	Which were the first symptoms leading you to a physician? (6)	8	other		discrete	QUPG	question form popgen
+t1817_IBD_symptom_6	1817	IBD_symptom_6	Which were the first symptoms leading you to a physician? (6)	7777777	unreadable/inconsistent		discrete	QUPG	question form popgen
+t1817_IBD_symptom_6	1817	IBD_symptom_6	Which were the first symptoms leading you to a physician? (6)	9999999	missing		discrete	QUPG	question form popgen
+t1818_IBD_symptom_7	1818	IBD_symptom_7	Which were the first symptoms leading you to a physician? (7)	1	diarrhea		discrete	QUPG	question form popgen
+t1818_IBD_symptom_7	1818	IBD_symptom_7	Which were the first symptoms leading you to a physician? (7)	2	abdominal pain		discrete	QUPG	question form popgen
+t1818_IBD_symptom_7	1818	IBD_symptom_7	Which were the first symptoms leading you to a physician? (7)	3	nausea		discrete	QUPG	question form popgen
+t1818_IBD_symptom_7	1818	IBD_symptom_7	Which were the first symptoms leading you to a physician? (7)	4	reduction of weight		discrete	QUPG	question form popgen
+t1818_IBD_symptom_7	1818	IBD_symptom_7	Which were the first symptoms leading you to a physician? (7)	5	blood in stool		discrete	QUPG	question form popgen
+t1818_IBD_symptom_7	1818	IBD_symptom_7	Which were the first symptoms leading you to a physician? (7)	6	anemia		discrete	QUPG	question form popgen
+t1818_IBD_symptom_7	1818	IBD_symptom_7	Which were the first symptoms leading you to a physician? (7)	7	abdominal induration		discrete	QUPG	question form popgen
+t1818_IBD_symptom_7	1818	IBD_symptom_7	Which were the first symptoms leading you to a physician? (7)	8	other		discrete	QUPG	question form popgen
+t1818_IBD_symptom_7	1818	IBD_symptom_7	Which were the first symptoms leading you to a physician? (7)	7777777	unreadable/inconsistent		discrete	QUPG	question form popgen
+t1818_IBD_symptom_7	1818	IBD_symptom_7	Which were the first symptoms leading you to a physician? (7)	9999999	missing		discrete	QUPG	question form popgen
+t1820_IBD_symptom_month	1820	IBD_symptom_month	In which month did the first symptoms for inflammatory bowel disease appear?	1 - 12			continuous	QUPG	question form popgen
+t1820_IBD_symptom_month	1820	IBD_symptom_month	In which month did the first symptoms for inflammatory bowel disease appear?	7777777	unreadable/inconsistent		continuous	QUPG	question form popgen
+t1820_IBD_symptom_month	1820	IBD_symptom_month	In which month did the first symptoms for inflammatory bowel disease appear?	9999999	missing		continuous	QUPG	question form popgen
+t1821_IBD_symptom_year	1821	IBD_symptom_year	In which year did the first symptoms for inflammatory bowel disease appear?	1900 - 2030			continuous	QUPG	question form popgen
+t1821_IBD_symptom_year	1821	IBD_symptom_year	In which year did the first symptoms for inflammatory bowel disease appear?	7777777	unreadable/inconsistent		continuous	QUPG	question form popgen
+t1821_IBD_symptom_year	1821	IBD_symptom_year	In which year did the first symptoms for inflammatory bowel disease appear?	9999999	missing		continuous	QUPG	question form popgen
+t1822_IBD_symptom_age	1822	IBD_symptom_age	How old were you when the first symptoms for inflammatory bowel disease appeared?	0 - 120			continuous	QUPG	question form popgen
+t1822_IBD_symptom_age	1822	IBD_symptom_age	How old were you when the first symptoms for inflammatory bowel disease appeared?	7777777	unreadable/inconsistent		continuous	QUPG	question form popgen
+t1822_IBD_symptom_age	1822	IBD_symptom_age	How old were you when the first symptoms for inflammatory bowel disease appeared?	9999999	missing		continuous	QUPG	question form popgen
+t1825_IBD_therapy	1825	IBD_therapy	Have you ever received any therapy due to inflammatory bowel disease?	1	medicaments		discrete	QUPG	question form popgen
+t1825_IBD_therapy	1825	IBD_therapy	Have you ever received any therapy due to inflammatory bowel disease?	2	surgery		discrete	QUPG	question form popgen
+t1825_IBD_therapy	1825	IBD_therapy	Have you ever received any therapy due to inflammatory bowel disease?	3	complementary/alternative therapy		discrete	QUPG	question form popgen
+t1825_IBD_therapy	1825	IBD_therapy	Have you ever received any therapy due to inflammatory bowel disease?	4	none		discrete	QUPG	question form popgen
+t1825_IBD_therapy	1825	IBD_therapy	Have you ever received any therapy due to inflammatory bowel disease?	5	do not know		discrete	QUPG	question form popgen
+t1825_IBD_therapy	1825	IBD_therapy	Have you ever received any therapy due to inflammatory bowel disease?	12	medicaments + surgery		discrete	QUPG	question form popgen
+t1825_IBD_therapy	1825	IBD_therapy	Have you ever received any therapy due to inflammatory bowel disease?	13	medic. + compl./altern.th.		discrete	QUPG	question form popgen
+t1825_IBD_therapy	1825	IBD_therapy	Have you ever received any therapy due to inflammatory bowel disease?	23	surgery + compl./altern.th.		discrete	QUPG	question form popgen
+t1825_IBD_therapy	1825	IBD_therapy	Have you ever received any therapy due to inflammatory bowel disease?	123	med.+ surg.+ compl./altern.th.		discrete	QUPG	question form popgen
+t1825_IBD_therapy	1825	IBD_therapy	Have you ever received any therapy due to inflammatory bowel disease?	7777777	unreadable/inconsistent		discrete	QUPG	question form popgen
+t1825_IBD_therapy	1825	IBD_therapy	Have you ever received any therapy due to inflammatory bowel disease?	9999999	missing		discrete	QUPG	question form popgen
+t1826_mesalazin_12m	1826	mesalazin_12m	Did you take the medicament Mesalazin due to your PSC and / or IBD during the last 12 months (follow-up of studies before 05/2016: after the previous date of sampling)?	0	unknown		discrete	QUPG	question form popgen
+t1826_mesalazin_12m	1826	mesalazin_12m	Did you take the medicament Mesalazin due to your PSC and / or IBD during the last 12 months (follow-up of studies before 05/2016: after the previous date of sampling)?	1	yes		discrete	QUPG	question form popgen
+t1826_mesalazin_12m	1826	mesalazin_12m	Did you take the medicament Mesalazin due to your PSC and / or IBD during the last 12 months (follow-up of studies before 05/2016: after the previous date of sampling)?	2	no		discrete	QUPG	question form popgen
+t1826_mesalazin_12m	1826	mesalazin_12m	Did you take the medicament Mesalazin due to your PSC and / or IBD during the last 12 months (follow-up of studies before 05/2016: after the previous date of sampling)?	7777777	unreadable/inconsistent		discrete	QUPG	question form popgen
+t1826_mesalazin_12m	1826	mesalazin_12m	Did you take the medicament Mesalazin due to your PSC and / or IBD during the last 12 months (follow-up of studies before 05/2016: after the previous date of sampling)?	9999999	missing		discrete	QUPG	question form popgen
+t1827_mesalazin_therapy	1827	mesalazin_therapy	Which mesalazin therapy have you received?	0	unknown		discrete	QUPG	question form popgen
+t1827_mesalazin_therapy	1827	mesalazin_therapy	Which mesalazin therapy have you received?	1	local therapy		discrete	QUPG	question form popgen
+t1827_mesalazin_therapy	1827	mesalazin_therapy	Which mesalazin therapy have you received?	2	systemic therapy		discrete	QUPG	question form popgen
+t1827_mesalazin_therapy	1827	mesalazin_therapy	Which mesalazin therapy have you received?	3	local + systemic therapy		discrete	QUPG	question form popgen
+t1827_mesalazin_therapy	1827	mesalazin_therapy	Which mesalazin therapy have you received?	7777777	unreadable/inconsistent		discrete	QUPG	question form popgen
+t1827_mesalazin_therapy	1827	mesalazin_therapy	Which mesalazin therapy have you received?	9999999	missing		discrete	QUPG	question form popgen
+t1828_sulfasalazin_12m	1828	sulfasalazin_12m	Did you take the medicament Sulfasalazin due to your PSC and / or IBD during the last 12 months (follow-up of studies before 05/2016: after the previous date of sampling)?	0	unknown		discrete	QUPG	question form popgen
+t1828_sulfasalazin_12m	1828	sulfasalazin_12m	Did you take the medicament Sulfasalazin due to your PSC and / or IBD during the last 12 months (follow-up of studies before 05/2016: after the previous date of sampling)?	1	yes		discrete	QUPG	question form popgen
+t1828_sulfasalazin_12m	1828	sulfasalazin_12m	Did you take the medicament Sulfasalazin due to your PSC and / or IBD during the last 12 months (follow-up of studies before 05/2016: after the previous date of sampling)?	2	no		discrete	QUPG	question form popgen
+t1828_sulfasalazin_12m	1828	sulfasalazin_12m	Did you take the medicament Sulfasalazin due to your PSC and / or IBD during the last 12 months (follow-up of studies before 05/2016: after the previous date of sampling)?	7777777	unreadable/inconsistent		discrete	QUPG	question form popgen
+t1828_sulfasalazin_12m	1828	sulfasalazin_12m	Did you take the medicament Sulfasalazin due to your PSC and / or IBD during the last 12 months (follow-up of studies before 05/2016: after the previous date of sampling)?	9999999	missing		discrete	QUPG	question form popgen
+t1829_sulfasalazin_therapy	1829	sulfasalazin_therapy	Which sulfasalazin therapy have you received?	0	unknown		discrete	QUPG	question form popgen
+t1829_sulfasalazin_therapy	1829	sulfasalazin_therapy	Which sulfasalazin therapy have you received?	1	local therapy		discrete	QUPG	question form popgen
+t1829_sulfasalazin_therapy	1829	sulfasalazin_therapy	Which sulfasalazin therapy have you received?	2	systemic therapy		discrete	QUPG	question form popgen
+t1829_sulfasalazin_therapy	1829	sulfasalazin_therapy	Which sulfasalazin therapy have you received?	3	local + systemic therapy		discrete	QUPG	question form popgen
+t1829_sulfasalazin_therapy	1829	sulfasalazin_therapy	Which sulfasalazin therapy have you received?	7777777	unreadable/inconsistent		discrete	QUPG	question form popgen
+t1829_sulfasalazin_therapy	1829	sulfasalazin_therapy	Which sulfasalazin therapy have you received?	9999999	missing		discrete	QUPG	question form popgen
+t1830_budesonid_12m	1830	budesonid_12m	Did you take the medicament Budesonid due to your PSC and / or IBD during the last 12 months (follow-up of studies before 05/2016: after the previous date of sampling)?	0	unknown		discrete	QUPG	question form popgen
+t1830_budesonid_12m	1830	budesonid_12m	Did you take the medicament Budesonid due to your PSC and / or IBD during the last 12 months (follow-up of studies before 05/2016: after the previous date of sampling)?	1	yes		discrete	QUPG	question form popgen
+t1830_budesonid_12m	1830	budesonid_12m	Did you take the medicament Budesonid due to your PSC and / or IBD during the last 12 months (follow-up of studies before 05/2016: after the previous date of sampling)?	2	no		discrete	QUPG	question form popgen
+t1830_budesonid_12m	1830	budesonid_12m	Did you take the medicament Budesonid due to your PSC and / or IBD during the last 12 months (follow-up of studies before 05/2016: after the previous date of sampling)?	7777777	unreadable/inconsistent		discrete	QUPG	question form popgen
+t1830_budesonid_12m	1830	budesonid_12m	Did you take the medicament Budesonid due to your PSC and / or IBD during the last 12 months (follow-up of studies before 05/2016: after the previous date of sampling)?	9999999	missing		discrete	QUPG	question form popgen
+t1831_budesonid_therapy	1831	budesonid_therapy	Which Budesonid therapy have you received?	0	unknown		discrete	QUPG	question form popgen
+t1831_budesonid_therapy	1831	budesonid_therapy	Which Budesonid therapy have you received?	1	local therapy		discrete	QUPG	question form popgen
+t1831_budesonid_therapy	1831	budesonid_therapy	Which Budesonid therapy have you received?	2	systemic therapy		discrete	QUPG	question form popgen
+t1831_budesonid_therapy	1831	budesonid_therapy	Which Budesonid therapy have you received?	3	local + systemic therapy		discrete	QUPG	question form popgen
+t1831_budesonid_therapy	1831	budesonid_therapy	Which Budesonid therapy have you received?	7777777	unreadable/inconsistent		discrete	QUPG	question form popgen
+t1831_budesonid_therapy	1831	budesonid_therapy	Which Budesonid therapy have you received?	9999999	missing		discrete	QUPG	question form popgen
+t1832_cortisone_12m	1832	cortisone_12m	Did you take the medicament Cortison due to your PSC and / or IBD during the last 12 months (follow-up of studies before 05/2016: after the previous date of sampling)?	0	unknown		discrete	QUPG	question form popgen
+t1832_cortisone_12m	1832	cortisone_12m	Did you take the medicament Cortison due to your PSC and / or IBD during the last 12 months (follow-up of studies before 05/2016: after the previous date of sampling)?	1	yes		discrete	QUPG	question form popgen
+t1832_cortisone_12m	1832	cortisone_12m	Did you take the medicament Cortison due to your PSC and / or IBD during the last 12 months (follow-up of studies before 05/2016: after the previous date of sampling)?	2	no		discrete	QUPG	question form popgen
+t1832_cortisone_12m	1832	cortisone_12m	Did you take the medicament Cortison due to your PSC and / or IBD during the last 12 months (follow-up of studies before 05/2016: after the previous date of sampling)?	7777777	unreadable/inconsistent		discrete	QUPG	question form popgen
+t1832_cortisone_12m	1832	cortisone_12m	Did you take the medicament Cortison due to your PSC and / or IBD during the last 12 months (follow-up of studies before 05/2016: after the previous date of sampling)?	9999999	missing		discrete	QUPG	question form popgen
+t1833_cortison_duration	1833	cortison_duration	How long did you take Cortison (> 10mg/day) altogether?	0	unknown		discrete	QUPG	question form popgen
+t1833_cortison_duration	1833	cortison_duration	How long did you take Cortison (> 10mg/day) altogether?	1	more than 1 year		discrete	QUPG	question form popgen
+t1833_cortison_duration	1833	cortison_duration	How long did you take Cortison (> 10mg/day) altogether?	2	7-12 months		discrete	QUPG	question form popgen
+t1833_cortison_duration	1833	cortison_duration	How long did you take Cortison (> 10mg/day) altogether?	3	4-6 months		discrete	QUPG	question form popgen
+t1833_cortison_duration	1833	cortison_duration	How long did you take Cortison (> 10mg/day) altogether?	4	1-3 months		discrete	QUPG	question form popgen
+t1833_cortison_duration	1833	cortison_duration	How long did you take Cortison (> 10mg/day) altogether?	5	less than 1 month		discrete	QUPG	question form popgen
+t1833_cortison_duration	1833	cortison_duration	How long did you take Cortison (> 10mg/day) altogether?	6	never		discrete	QUPG	question form popgen
+t1833_cortison_duration	1833	cortison_duration	How long did you take Cortison (> 10mg/day) altogether?	7777777	unreadable/inconsistent		discrete	QUPG	question form popgen
+t1833_cortison_duration	1833	cortison_duration	How long did you take Cortison (> 10mg/day) altogether?	9999999	missing		discrete	QUPG	question form popgen
+t1834_antibiotics_12m	1834	antibiotics_12m	Did you take antibiotics due to your PSC and / or IBD during the last 12 months (follow-up of studies before 05/2016: after the previous date of sampling)?	0	unknown		discrete	QUPG	question form popgen
+t1834_antibiotics_12m	1834	antibiotics_12m	Did you take antibiotics due to your PSC and / or IBD during the last 12 months (follow-up of studies before 05/2016: after the previous date of sampling)?	1	yes		discrete	QUPG	question form popgen
+t1834_antibiotics_12m	1834	antibiotics_12m	Did you take antibiotics due to your PSC and / or IBD during the last 12 months (follow-up of studies before 05/2016: after the previous date of sampling)?	2	no		discrete	QUPG	question form popgen
+t1834_antibiotics_12m	1834	antibiotics_12m	Did you take antibiotics due to your PSC and / or IBD during the last 12 months (follow-up of studies before 05/2016: after the previous date of sampling)?	7777777	unreadable/inconsistent		discrete	QUPG	question form popgen
+t1834_antibiotics_12m	1834	antibiotics_12m	Did you take antibiotics due to your PSC and / or IBD during the last 12 months (follow-up of studies before 05/2016: after the previous date of sampling)?	9999999	missing		discrete	QUPG	question form popgen
+t1835_azathioprin_12m	1835	azathioprin_12m	Did you take the medicament Azathioprin due to your PSC and / or IBD during the last 12 months (follow-up of studies before 05/2016: after the previous date of sampling)?	0	unknown		discrete	QUPG	question form popgen
+t1835_azathioprin_12m	1835	azathioprin_12m	Did you take the medicament Azathioprin due to your PSC and / or IBD during the last 12 months (follow-up of studies before 05/2016: after the previous date of sampling)?	1	yes		discrete	QUPG	question form popgen
+t1835_azathioprin_12m	1835	azathioprin_12m	Did you take the medicament Azathioprin due to your PSC and / or IBD during the last 12 months (follow-up of studies before 05/2016: after the previous date of sampling)?	2	no		discrete	QUPG	question form popgen
+t1835_azathioprin_12m	1835	azathioprin_12m	Did you take the medicament Azathioprin due to your PSC and / or IBD during the last 12 months (follow-up of studies before 05/2016: after the previous date of sampling)?	7777777	unreadable/inconsistent		discrete	QUPG	question form popgen
+t1835_azathioprin_12m	1835	azathioprin_12m	Did you take the medicament Azathioprin due to your PSC and / or IBD during the last 12 months (follow-up of studies before 05/2016: after the previous date of sampling)?	9999999	missing		discrete	QUPG	question form popgen
+t1836_6-Mercaptopurin_12m	1836	6-Mercaptopurin_12m	Did you take the medicament 6-Mercaptopurin due to your PSC and / or IBD during the last 12 months (follow-up of studies before 05/2016: after the previous date of sampling)?	0	unknown		discrete	QUPG	question form popgen
+t1836_6-Mercaptopurin_12m	1836	6-Mercaptopurin_12m	Did you take the medicament 6-Mercaptopurin due to your PSC and / or IBD during the last 12 months (follow-up of studies before 05/2016: after the previous date of sampling)?	1	yes		discrete	QUPG	question form popgen
+t1836_6-Mercaptopurin_12m	1836	6-Mercaptopurin_12m	Did you take the medicament 6-Mercaptopurin due to your PSC and / or IBD during the last 12 months (follow-up of studies before 05/2016: after the previous date of sampling)?	2	no		discrete	QUPG	question form popgen
+t1836_6-Mercaptopurin_12m	1836	6-Mercaptopurin_12m	Did you take the medicament 6-Mercaptopurin due to your PSC and / or IBD during the last 12 months (follow-up of studies before 05/2016: after the previous date of sampling)?	7777777	unreadable/inconsistent		discrete	QUPG	question form popgen
+t1836_6-Mercaptopurin_12m	1836	6-Mercaptopurin_12m	Did you take the medicament 6-Mercaptopurin due to your PSC and / or IBD during the last 12 months (follow-up of studies before 05/2016: after the previous date of sampling)?	9999999	missing		discrete	QUPG	question form popgen
+t1837_infliximab_12m	1837	infliximab_12m	Did you take the medicament Infliximab due to your PSC and / or IBD during the last 12 months (follow-up of studies before 05/2016: after the previous date of sampling)?	0	unknown		discrete	QUPG	question form popgen
+t1837_infliximab_12m	1837	infliximab_12m	Did you take the medicament Infliximab due to your PSC and / or IBD during the last 12 months (follow-up of studies before 05/2016: after the previous date of sampling)?	1	yes		discrete	QUPG	question form popgen
+t1837_infliximab_12m	1837	infliximab_12m	Did you take the medicament Infliximab due to your PSC and / or IBD during the last 12 months (follow-up of studies before 05/2016: after the previous date of sampling)?	2	no		discrete	QUPG	question form popgen
+t1837_infliximab_12m	1837	infliximab_12m	Did you take the medicament Infliximab due to your PSC and / or IBD during the last 12 months (follow-up of studies before 05/2016: after the previous date of sampling)?	7777777	unreadable/inconsistent		discrete	QUPG	question form popgen
+t1837_infliximab_12m	1837	infliximab_12m	Did you take the medicament Infliximab due to your PSC and / or IBD during the last 12 months (follow-up of studies before 05/2016: after the previous date of sampling)?	9999999	missing		discrete	QUPG	question form popgen
+t1838_methotrexat_12m	1838	methotrexat_12m	Did you take the medicament Methotrexat due to your PSC and / or IBD during the last 12 months (follow-up of studies before 05/2016: after the previous date of sampling)?	0	unknown		discrete	QUPG	question form popgen
+t1838_methotrexat_12m	1838	methotrexat_12m	Did you take the medicament Methotrexat due to your PSC and / or IBD during the last 12 months (follow-up of studies before 05/2016: after the previous date of sampling)?	1	yes		discrete	QUPG	question form popgen
+t1838_methotrexat_12m	1838	methotrexat_12m	Did you take the medicament Methotrexat due to your PSC and / or IBD during the last 12 months (follow-up of studies before 05/2016: after the previous date of sampling)?	2	no		discrete	QUPG	question form popgen
+t1838_methotrexat_12m	1838	methotrexat_12m	Did you take the medicament Methotrexat due to your PSC and / or IBD during the last 12 months (follow-up of studies before 05/2016: after the previous date of sampling)?	7777777	unreadable/inconsistent		discrete	QUPG	question form popgen
+t1838_methotrexat_12m	1838	methotrexat_12m	Did you take the medicament Methotrexat due to your PSC and / or IBD during the last 12 months (follow-up of studies before 05/2016: after the previous date of sampling)?	9999999	missing		discrete	QUPG	question form popgen
+t1839_cyclosporin_12m	1839	cyclosporin_12m	Did you take the medicament Cyclosporin due to your PSC and / or IBD during the last 12 months (follow-up of studies before 05/2016: after the previous date of sampling)?	0	unknown		discrete	QUPG	question form popgen
+t1839_cyclosporin_12m	1839	cyclosporin_12m	Did you take the medicament Cyclosporin due to your PSC and / or IBD during the last 12 months (follow-up of studies before 05/2016: after the previous date of sampling)?	1	yes		discrete	QUPG	question form popgen
+t1839_cyclosporin_12m	1839	cyclosporin_12m	Did you take the medicament Cyclosporin due to your PSC and / or IBD during the last 12 months (follow-up of studies before 05/2016: after the previous date of sampling)?	2	no		discrete	QUPG	question form popgen
+t1839_cyclosporin_12m	1839	cyclosporin_12m	Did you take the medicament Cyclosporin due to your PSC and / or IBD during the last 12 months (follow-up of studies before 05/2016: after the previous date of sampling)?	7777777	unreadable/inconsistent		discrete	QUPG	question form popgen
+t1839_cyclosporin_12m	1839	cyclosporin_12m	Did you take the medicament Cyclosporin due to your PSC and / or IBD during the last 12 months (follow-up of studies before 05/2016: after the previous date of sampling)?	9999999	missing		discrete	QUPG	question form popgen
+t1840_tacrolimus_12m	1840	tacrolimus_12m	Did you take the medicament Tacrolimus due to your PSC and / or IBD during the last 12 months (follow-up of studies before 05/2016: after the previous date of sampling)?	0	unknown		discrete	QUPG	question form popgen
+t1840_tacrolimus_12m	1840	tacrolimus_12m	Did you take the medicament Tacrolimus due to your PSC and / or IBD during the last 12 months (follow-up of studies before 05/2016: after the previous date of sampling)?	1	yes		discrete	QUPG	question form popgen
+t1840_tacrolimus_12m	1840	tacrolimus_12m	Did you take the medicament Tacrolimus due to your PSC and / or IBD during the last 12 months (follow-up of studies before 05/2016: after the previous date of sampling)?	2	no		discrete	QUPG	question form popgen
+t1840_tacrolimus_12m	1840	tacrolimus_12m	Did you take the medicament Tacrolimus due to your PSC and / or IBD during the last 12 months (follow-up of studies before 05/2016: after the previous date of sampling)?	7777777	unreadable/inconsistent		discrete	QUPG	question form popgen
+t1840_tacrolimus_12m	1840	tacrolimus_12m	Did you take the medicament Tacrolimus due to your PSC and / or IBD during the last 12 months (follow-up of studies before 05/2016: after the previous date of sampling)?	9999999	missing		discrete	QUPG	question form popgen
+t1841_study_medication_12m	1841	study_medication_12m	Did you take study medicaments due to your PSC and/ or IBD during the last 12 months (follow-up of studies before 05/2016: after the previous date of sampling)?	0	unknown		discrete	QUPG	question form popgen
+t1841_study_medication_12m	1841	study_medication_12m	Did you take study medicaments due to your PSC and/ or IBD during the last 12 months (follow-up of studies before 05/2016: after the previous date of sampling)?	1	yes		discrete	QUPG	question form popgen
+t1841_study_medication_12m	1841	study_medication_12m	Did you take study medicaments due to your PSC and/ or IBD during the last 12 months (follow-up of studies before 05/2016: after the previous date of sampling)?	2	no		discrete	QUPG	question form popgen
+t1841_study_medication_12m	1841	study_medication_12m	Did you take study medicaments due to your PSC and/ or IBD during the last 12 months (follow-up of studies before 05/2016: after the previous date of sampling)?	7777777	unreadable/inconsistent		discrete	QUPG	question form popgen
+t1841_study_medication_12m	1841	study_medication_12m	Did you take study medicaments due to your PSC and/ or IBD during the last 12 months (follow-up of studies before 05/2016: after the previous date of sampling)?	9999999	missing		discrete	QUPG	question form popgen
+t1842_IBD_surgery	1842	IBD_surgery	Did you have surgical operations due to your inflammatory bowel disease (follow-up of studies before 05/2016: after the previous date of sampling)?	0	unknown		discrete	QUPG	question form popgen
+t1842_IBD_surgery	1842	IBD_surgery	Did you have surgical operations due to your inflammatory bowel disease (follow-up of studies before 05/2016: after the previous date of sampling)?	1	yes		discrete	QUPG	question form popgen
+t1842_IBD_surgery	1842	IBD_surgery	Did you have surgical operations due to your inflammatory bowel disease (follow-up of studies before 05/2016: after the previous date of sampling)?	2	no		discrete	QUPG	question form popgen
+t1842_IBD_surgery	1842	IBD_surgery	Did you have surgical operations due to your inflammatory bowel disease (follow-up of studies before 05/2016: after the previous date of sampling)?	7777777	unreadable/inconsistent		discrete	QUPG	question form popgen
+t1842_IBD_surgery	1842	IBD_surgery	Did you have surgical operations due to your inflammatory bowel disease (follow-up of studies before 05/2016: after the previous date of sampling)?	9999999	missing		discrete	QUPG	question form popgen
+t1843_ileocaecal_resection	1843	ileocaecal_resection	Did you have an ileocaecal resection?	1	yes		discrete	QUPG	question form popgen
+t1843_ileocaecal_resection	1843	ileocaecal_resection	Did you have an ileocaecal resection?	2	no		discrete	QUPG	question form popgen
+t1843_ileocaecal_resection	1843	ileocaecal_resection	Did you have an ileocaecal resection?	7777777	unreadable/inconsistent		discrete	QUPG	question form popgen
+t1843_ileocaecal_resection	1843	ileocaecal_resection	Did you have an ileocaecal resection?	9999999	missing		discrete	QUPG	question form popgen
+t1844_ileocaecal_res_year	1844	ileocaecal_res_year	In which year did you have an ileocaecal resection?	1900 - 2030			continuous	QUPG	question form popgen
+t1844_ileocaecal_res_year	1844	ileocaecal_res_year	In which year did you have an ileocaecal resection?	7777777	unreadable/inconsistent		continuous	QUPG	question form popgen
+t1844_ileocaecal_res_year	1844	ileocaecal_res_year	In which year did you have an ileocaecal resection?	9999999	missing		continuous	QUPG	question form popgen
+t1845_ileocaecal_res_age	1845	ileocaecal_res_age	How old were you when you had an ileocaecal resection?	0 - 120			continuous	QUPG	question form popgen
+t1845_ileocaecal_res_age	1845	ileocaecal_res_age	How old were you when you had an ileocaecal resection?	7777777	unreadable/inconsistent		continuous	QUPG	question form popgen
+t1845_ileocaecal_res_age	1845	ileocaecal_res_age	How old were you when you had an ileocaecal resection?	9999999	missing		continuous	QUPG	question form popgen
+t1846_colon_part_resection	1846	colon_part_resection	Did you have a resection of colon parts?	1	yes		discrete	QUPG	question form popgen
+t1846_colon_part_resection	1846	colon_part_resection	Did you have a resection of colon parts?	2	no		discrete	QUPG	question form popgen
+t1846_colon_part_resection	1846	colon_part_resection	Did you have a resection of colon parts?	7777777	unreadable/inconsistent		discrete	QUPG	question form popgen
+t1846_colon_part_resection	1846	colon_part_resection	Did you have a resection of colon parts?	9999999	missing		discrete	QUPG	question form popgen
+t1847_colon_part_res_n	1847	colon_part_res_n	How many resections of colon parts did you have?	1 - 10			continuous	QUPG	question form popgen
+t1847_colon_part_res_n	1847	colon_part_res_n	How many resections of colon parts did you have?	2222	several		continuous	QUPG	question form popgen
+t1847_colon_part_res_n	1847	colon_part_res_n	How many resections of colon parts did you have?	7777777	unreadable/inconsistent		continuous	QUPG	question form popgen
+t1847_colon_part_res_n	1847	colon_part_res_n	How many resections of colon parts did you have?	9999999	missing		continuous	QUPG	question form popgen
+t1848_colon_part_res_year1	1848	colon_part_res_year1	In which year was the first resection of colon parts?	1900 - 2030			continuous	QUPG	question form popgen
+t1848_colon_part_res_year1	1848	colon_part_res_year1	In which year was the first resection of colon parts?	7777777	unreadable/inconsistent		continuous	QUPG	question form popgen
+t1848_colon_part_res_year1	1848	colon_part_res_year1	In which year was the first resection of colon parts?	9999999	missing		continuous	QUPG	question form popgen
+t1850_colon_part_res_year2	1850	colon_part_res_year2	In which year was the last resection of colon parts?	1900 - 2030			continuous	QUPG	question form popgen
+t1850_colon_part_res_year2	1850	colon_part_res_year2	In which year was the last resection of colon parts?	7777777	unreadable/inconsistent		continuous	QUPG	question form popgen
+t1850_colon_part_res_year2	1850	colon_part_res_year2	In which year was the last resection of colon parts?	9999999	missing		continuous	QUPG	question form popgen
+t1852_colectomy	1852	colectomy	Did you have a colectomy?	1	yes		discrete	QUPG	question form popgen
+t1852_colectomy	1852	colectomy	Did you have a colectomy?	2	no		discrete	QUPG	question form popgen
+t1852_colectomy	1852	colectomy	Did you have a colectomy?	7777777	unreadable/inconsistent		discrete	QUPG	question form popgen
+t1852_colectomy	1852	colectomy	Did you have a colectomy?	9999999	missing		discrete	QUPG	question form popgen
+t1853_colectomy_year	1853	colectomy_year	In which year did you have a colectomy?	1900 - 2030			continuous	QUPG	question form popgen
+t1853_colectomy_year	1853	colectomy_year	In which year did you have a colectomy?	7777777	unreadable/inconsistent		continuous	QUPG	question form popgen
+t1853_colectomy_year	1853	colectomy_year	In which year did you have a colectomy?	9999999	missing		continuous	QUPG	question form popgen
+t1854_colectomy_age	1854	colectomy_age	How old were you when you had a colectomy?	0 - 120			continuous	QUPG	question form popgen
+t1854_colectomy_age	1854	colectomy_age	How old were you when you had a colectomy?	7777777	unreadable/inconsistent		continuous	QUPG	question form popgen
+t1854_colectomy_age	1854	colectomy_age	How old were you when you had a colectomy?	9999999	missing		continuous	QUPG	question form popgen
+t1855_abscess_incision	1855	abscess_incision	Did you have an abscess incision?	1	yes		discrete	QUPG	question form popgen
+t1855_abscess_incision	1855	abscess_incision	Did you have an abscess incision?	2	no		discrete	QUPG	question form popgen
+t1855_abscess_incision	1855	abscess_incision	Did you have an abscess incision?	7777777	unreadable/inconsistent		discrete	QUPG	question form popgen
+t1855_abscess_incision	1855	abscess_incision	Did you have an abscess incision?	9999999	missing		discrete	QUPG	question form popgen
+t1856_abscess_incision_n	1856	abscess_incision_n	How many abscess incisions did you have?	1 - 40			continuous	QUPG	question form popgen
+t1856_abscess_incision_n	1856	abscess_incision_n	How many abscess incisions did you have?	7777777	unreadable/inconsistent		continuous	QUPG	question form popgen
+t1856_abscess_incision_n	1856	abscess_incision_n	How many abscess incisions did you have?	9999999	missing		continuous	QUPG	question form popgen
+t1857_abscess_incis_year1	1857	abscess_incis_year1	In which year did you have your firstabscess incision?	1900 - 2030			continuous	QUPG	question form popgen
+t1857_abscess_incis_year1	1857	abscess_incis_year1	In which year did you have your firstabscess incision?	7777777	unreadable/inconsistent		continuous	QUPG	question form popgen
+t1857_abscess_incis_year1	1857	abscess_incis_year1	In which year did you have your firstabscess incision?	9999999	missing		continuous	QUPG	question form popgen
+t1858_abscess_incis_age1	1858	abscess_incis_age1	How old were you when you had your first abscess incision?	0 - 120			continuous	QUPG	question form popgen
+t1858_abscess_incis_age1	1858	abscess_incis_age1	How old were you when you had your first abscess incision?	7777777	unreadable/inconsistent		continuous	QUPG	question form popgen
+t1858_abscess_incis_age1	1858	abscess_incis_age1	How old were you when you had your first abscess incision?	9999999	missing		continuous	QUPG	question form popgen
+t1861_fistula_surgery	1861	fistula_surgery	Did you undergo surgery due to fistulae?	1	yes		discrete	QUPG	question form popgen
+t1861_fistula_surgery	1861	fistula_surgery	Did you undergo surgery due to fistulae?	2	no		discrete	QUPG	question form popgen
+t1861_fistula_surgery	1861	fistula_surgery	Did you undergo surgery due to fistulae?	7777777	unreadable/inconsistent		discrete	QUPG	question form popgen
+t1861_fistula_surgery	1861	fistula_surgery	Did you undergo surgery due to fistulae?	9999999	missing		discrete	QUPG	question form popgen
+t1862_fistula_surgery_n	1862	fistula_surgery_n	How many surgeries have been performed due to fistulae?	1 - 40			continuous	QUPG	question form popgen
+t1862_fistula_surgery_n	1862	fistula_surgery_n	How many surgeries have been performed due to fistulae?	7777777	unreadable/inconsistent		continuous	QUPG	question form popgen
+t1862_fistula_surgery_n	1862	fistula_surgery_n	How many surgeries have been performed due to fistulae?	9999999	missing		continuous	QUPG	question form popgen
+t1863_fistula_surgery_yr1	1863	fistula_surgery_yr1	In which year did you undergo the first surgery due to fistulae?	1900 - 2030			continuous	QUPG	question form popgen
+t1863_fistula_surgery_yr1	1863	fistula_surgery_yr1	In which year did you undergo the first surgery due to fistulae?	7777777	unreadable/inconsistent		continuous	QUPG	question form popgen
+t1863_fistula_surgery_yr1	1863	fistula_surgery_yr1	In which year did you undergo the first surgery due to fistulae?	9999999	missing		continuous	QUPG	question form popgen
+t1864_fistula_surgery_age1	1864	fistula_surgery_age1	How old were you when the first surgery due to fistulae was performed?	0 - 120			continuous	QUPG	question form popgen
+t1864_fistula_surgery_age1	1864	fistula_surgery_age1	How old were you when the first surgery due to fistulae was performed?	7777777	unreadable/inconsistent		continuous	QUPG	question form popgen
+t1864_fistula_surgery_age1	1864	fistula_surgery_age1	How old were you when the first surgery due to fistulae was performed?	9999999	missing		continuous	QUPG	question form popgen
+t1865_fistula_surgery_yr2	1865	fistula_surgery_yr2	In which year did you undergo the last surgery due to fistulae?	1900 - 2030			continuous	QUPG	question form popgen
+t1865_fistula_surgery_yr2	1865	fistula_surgery_yr2	In which year did you undergo the last surgery due to fistulae?	7777777	unreadable/inconsistent		continuous	QUPG	question form popgen
+t1865_fistula_surgery_yr2	1865	fistula_surgery_yr2	In which year did you undergo the last surgery due to fistulae?	9999999	missing		continuous	QUPG	question form popgen
+t1867_stenosis_surgery	1867	stenosis_surgery	Did you undergo surgery due to a stenosis or stricture?	1	yes		discrete	QUPG	question form popgen
+t1867_stenosis_surgery	1867	stenosis_surgery	Did you undergo surgery due to a stenosis or stricture?	2	no		discrete	QUPG	question form popgen
+t1867_stenosis_surgery	1867	stenosis_surgery	Did you undergo surgery due to a stenosis or stricture?	7777777	unreadable/inconsistent		discrete	QUPG	question form popgen
+t1867_stenosis_surgery	1867	stenosis_surgery	Did you undergo surgery due to a stenosis or stricture?	9999999	missing		discrete	QUPG	question form popgen
+t1868_stenosis_surgery_n	1868	stenosis_surgery_n	How many times did you undergo surgery due to a stenosis or stricture?	1 - 20			continuous	QUPG	question form popgen
+t1868_stenosis_surgery_n	1868	stenosis_surgery_n	How many times did you undergo surgery due to a stenosis or stricture?	1111	many		continuous	QUPG	question form popgen
+t1868_stenosis_surgery_n	1868	stenosis_surgery_n	How many times did you undergo surgery due to a stenosis or stricture?	7777777	unreadable/inconsistent		continuous	QUPG	question form popgen
+t1868_stenosis_surgery_n	1868	stenosis_surgery_n	How many times did you undergo surgery due to a stenosis or stricture?	9999999	missing		continuous	QUPG	question form popgen
+t1869_stenosis_surgery_yr1	1869	stenosis_surgery_yr1	In which year did you undergo the first surgery due to a stenosis or stricture?	1900 - 2030			continuous	QUPG	question form popgen
+t1869_stenosis_surgery_yr1	1869	stenosis_surgery_yr1	In which year did you undergo the first surgery due to a stenosis or stricture?	7777777	unreadable/inconsistent		continuous	QUPG	question form popgen
+t1869_stenosis_surgery_yr1	1869	stenosis_surgery_yr1	In which year did you undergo the first surgery due to a stenosis or stricture?	9999999	missing		continuous	QUPG	question form popgen
+t1871_stenosis_surgery_yr2	1871	stenosis_surgery_yr2	In which year did you undergo the last surgery due to a stenosis or stricture?	1900 - 2030			continuous	QUPG	question form popgen
+t1871_stenosis_surgery_yr2	1871	stenosis_surgery_yr2	In which year did you undergo the last surgery due to a stenosis or stricture?	7777777	unreadable/inconsistent		continuous	QUPG	question form popgen
+t1871_stenosis_surgery_yr2	1871	stenosis_surgery_yr2	In which year did you undergo the last surgery due to a stenosis or stricture?	9999999	missing		continuous	QUPG	question form popgen
+t1873_alternative_therapy	1873	alternative_therapy	Do you receive complementary or alternative medicine due to your inflammatory bowel disease or PSC in addition to conventional therapy (follow-up of studies before 05/2016: after the previous date of sampling)?	1	yes		discrete	QUPG	question form popgen
+t1873_alternative_therapy	1873	alternative_therapy	Do you receive complementary or alternative medicine due to your inflammatory bowel disease or PSC in addition to conventional therapy (follow-up of studies before 05/2016: after the previous date of sampling)?	2	no		discrete	QUPG	question form popgen
+t1873_alternative_therapy	1873	alternative_therapy	Do you receive complementary or alternative medicine due to your inflammatory bowel disease or PSC in addition to conventional therapy (follow-up of studies before 05/2016: after the previous date of sampling)?	7777777	unreadable/inconsistent		discrete	QUPG	question form popgen
+t1873_alternative_therapy	1873	alternative_therapy	Do you receive complementary or alternative medicine due to your inflammatory bowel disease or PSC in addition to conventional therapy (follow-up of studies before 05/2016: after the previous date of sampling)?	9999999	missing		discrete	QUPG	question form popgen
+t1874_alt_therapy_which1	1874	alt_therapy_which1	Which complementary/ alternative medicine did/do you receive? (1)	1	Indian plantago		discrete	QUPG	question form popgen
+t1874_alt_therapy_which1	1874	alt_therapy_which1	Which complementary/ alternative medicine did/do you receive? (1)	2	yoga		discrete	QUPG	question form popgen
+t1874_alt_therapy_which1	1874	alt_therapy_which1	Which complementary/ alternative medicine did/do you receive? (1)	3	acupuncture		discrete	QUPG	question form popgen
+t1874_alt_therapy_which1	1874	alt_therapy_which1	Which complementary/ alternative medicine did/do you receive? (1)	4	helminthic therapy (TSO)		discrete	QUPG	question form popgen
+t1874_alt_therapy_which1	1874	alt_therapy_which1	Which complementary/ alternative medicine did/do you receive? (1)	5	curcumin		discrete	QUPG	question form popgen
+t1874_alt_therapy_which1	1874	alt_therapy_which1	Which complementary/ alternative medicine did/do you receive? (1)	6	phytotherapy		discrete	QUPG	question form popgen
+t1874_alt_therapy_which1	1874	alt_therapy_which1	Which complementary/ alternative medicine did/do you receive? (1)	7	immunomodulation		discrete	QUPG	question form popgen
+t1874_alt_therapy_which1	1874	alt_therapy_which1	Which complementary/ alternative medicine did/do you receive? (1)	8	probiotics		discrete	QUPG	question form popgen
+t1874_alt_therapy_which1	1874	alt_therapy_which1	Which complementary/ alternative medicine did/do you receive? (1)	9	homeopathy		discrete	QUPG	question form popgen
+t1874_alt_therapy_which1	1874	alt_therapy_which1	Which complementary/ alternative medicine did/do you receive? (1)	10	other		discrete	QUPG	question form popgen
+t1874_alt_therapy_which1	1874	alt_therapy_which1	Which complementary/ alternative medicine did/do you receive? (1)	7777777	unreadable/inconsistent		discrete	QUPG	question form popgen
+t1874_alt_therapy_which1	1874	alt_therapy_which1	Which complementary/ alternative medicine did/do you receive? (1)	9999999	missing		discrete	QUPG	question form popgen
+t1875_alt_therapy_months1	1875	alt_therapy_months1	How many months did you receive the complementary/ alternative therapy? (1)	0 - 480			continuous	QUPG	question form popgen
+t1875_alt_therapy_months1	1875	alt_therapy_months1	How many months did you receive the complementary/ alternative therapy? (1)	888	when needed		continuous	QUPG	question form popgen
+t1875_alt_therapy_months1	1875	alt_therapy_months1	How many months did you receive the complementary/ alternative therapy? (1)	999	always		continuous	QUPG	question form popgen
+t1875_alt_therapy_months1	1875	alt_therapy_months1	How many months did you receive the complementary/ alternative therapy? (1)	7777777	unreadable/inconsistent		continuous	QUPG	question form popgen
+t1875_alt_therapy_months1	1875	alt_therapy_months1	How many months did you receive the complementary/ alternative therapy? (1)	9999999	missing		continuous	QUPG	question form popgen
+t1876_alt_therapy_which2	1876	alt_therapy_which2	Which complementary/ alternative medicine did/do you receive? (2)	1	Indian plantago		discrete	QUPG	question form popgen
+t1876_alt_therapy_which2	1876	alt_therapy_which2	Which complementary/ alternative medicine did/do you receive? (2)	2	yoga		discrete	QUPG	question form popgen
+t1876_alt_therapy_which2	1876	alt_therapy_which2	Which complementary/ alternative medicine did/do you receive? (2)	3	acupuncture		discrete	QUPG	question form popgen
+t1876_alt_therapy_which2	1876	alt_therapy_which2	Which complementary/ alternative medicine did/do you receive? (2)	4	helminthic therapy (TSO)		discrete	QUPG	question form popgen
+t1876_alt_therapy_which2	1876	alt_therapy_which2	Which complementary/ alternative medicine did/do you receive? (2)	5	curcumin		discrete	QUPG	question form popgen
+t1876_alt_therapy_which2	1876	alt_therapy_which2	Which complementary/ alternative medicine did/do you receive? (2)	6	phytotherapy		discrete	QUPG	question form popgen
+t1876_alt_therapy_which2	1876	alt_therapy_which2	Which complementary/ alternative medicine did/do you receive? (2)	7	immunomodulation		discrete	QUPG	question form popgen
+t1876_alt_therapy_which2	1876	alt_therapy_which2	Which complementary/ alternative medicine did/do you receive? (2)	8	probiotics		discrete	QUPG	question form popgen
+t1876_alt_therapy_which2	1876	alt_therapy_which2	Which complementary/ alternative medicine did/do you receive? (2)	9	homeopathy		discrete	QUPG	question form popgen
+t1876_alt_therapy_which2	1876	alt_therapy_which2	Which complementary/ alternative medicine did/do you receive? (2)	10	other		discrete	QUPG	question form popgen
+t1876_alt_therapy_which2	1876	alt_therapy_which2	Which complementary/ alternative medicine did/do you receive? (2)	7777777	unreadable/inconsistent		discrete	QUPG	question form popgen
+t1876_alt_therapy_which2	1876	alt_therapy_which2	Which complementary/ alternative medicine did/do you receive? (2)	9999999	missing		discrete	QUPG	question form popgen
+t1877_alt_therapy_months2	1877	alt_therapy_months2	How many months did you receive the complementary/ alternative therapy? (2)	0 - 450			continuous	QUPG	question form popgen
+t1877_alt_therapy_months2	1877	alt_therapy_months2	How many months did you receive the complementary/ alternative therapy? (2)	888	when needed		continuous	QUPG	question form popgen
+t1877_alt_therapy_months2	1877	alt_therapy_months2	How many months did you receive the complementary/ alternative therapy? (2)	999	always		continuous	QUPG	question form popgen
+t1877_alt_therapy_months2	1877	alt_therapy_months2	How many months did you receive the complementary/ alternative therapy? (2)	7777777	unreadable/inconsistent		continuous	QUPG	question form popgen
+t1877_alt_therapy_months2	1877	alt_therapy_months2	How many months did you receive the complementary/ alternative therapy? (2)	9999999	missing		continuous	QUPG	question form popgen
+t1878_alt_therapy_which3	1878	alt_therapy_which3	Which complementary/ alternative medicine did/do you receive? (3)	1	Indian plantago		discrete	QUPG	question form popgen
+t1878_alt_therapy_which3	1878	alt_therapy_which3	Which complementary/ alternative medicine did/do you receive? (3)	2	yoga		discrete	QUPG	question form popgen
+t1878_alt_therapy_which3	1878	alt_therapy_which3	Which complementary/ alternative medicine did/do you receive? (3)	3	acupuncture		discrete	QUPG	question form popgen
+t1878_alt_therapy_which3	1878	alt_therapy_which3	Which complementary/ alternative medicine did/do you receive? (3)	4	helminthic therapy (TSO)		discrete	QUPG	question form popgen
+t1878_alt_therapy_which3	1878	alt_therapy_which3	Which complementary/ alternative medicine did/do you receive? (3)	5	curcumin		discrete	QUPG	question form popgen
+t1878_alt_therapy_which3	1878	alt_therapy_which3	Which complementary/ alternative medicine did/do you receive? (3)	6	phytotherapy		discrete	QUPG	question form popgen
+t1878_alt_therapy_which3	1878	alt_therapy_which3	Which complementary/ alternative medicine did/do you receive? (3)	7	immunomodulation		discrete	QUPG	question form popgen
+t1878_alt_therapy_which3	1878	alt_therapy_which3	Which complementary/ alternative medicine did/do you receive? (3)	8	probiotics		discrete	QUPG	question form popgen
+t1878_alt_therapy_which3	1878	alt_therapy_which3	Which complementary/ alternative medicine did/do you receive? (3)	9	homeopathy		discrete	QUPG	question form popgen
+t1878_alt_therapy_which3	1878	alt_therapy_which3	Which complementary/ alternative medicine did/do you receive? (3)	10	other		discrete	QUPG	question form popgen
+t1878_alt_therapy_which3	1878	alt_therapy_which3	Which complementary/ alternative medicine did/do you receive? (3)	7777777	unreadable/inconsistent		discrete	QUPG	question form popgen
+t1878_alt_therapy_which3	1878	alt_therapy_which3	Which complementary/ alternative medicine did/do you receive? (3)	9999999	missing		discrete	QUPG	question form popgen
+t1879_alt_therapy_months3	1879	alt_therapy_months3	How many months did you receive the complementary/ alternative therapy? (3)	0 - 450			continuous	QUPG	question form popgen
+t1879_alt_therapy_months3	1879	alt_therapy_months3	How many months did you receive the complementary/ alternative therapy? (3)	888	when needed		continuous	QUPG	question form popgen
+t1879_alt_therapy_months3	1879	alt_therapy_months3	How many months did you receive the complementary/ alternative therapy? (3)	999	always		continuous	QUPG	question form popgen
+t1879_alt_therapy_months3	1879	alt_therapy_months3	How many months did you receive the complementary/ alternative therapy? (3)	7777777	unreadable/inconsistent		continuous	QUPG	question form popgen
+t1879_alt_therapy_months3	1879	alt_therapy_months3	How many months did you receive the complementary/ alternative therapy? (3)	9999999	missing		continuous	QUPG	question form popgen
+t1880_alt_therapy_which4	1880	alt_therapy_which4	Which complementary/ alternative medicine did/do you receive? (4)	1	Indian plantago		discrete	QUPG	question form popgen
+t1880_alt_therapy_which4	1880	alt_therapy_which4	Which complementary/ alternative medicine did/do you receive? (4)	2	yoga		discrete	QUPG	question form popgen
+t1880_alt_therapy_which4	1880	alt_therapy_which4	Which complementary/ alternative medicine did/do you receive? (4)	3	acupuncture		discrete	QUPG	question form popgen
+t1880_alt_therapy_which4	1880	alt_therapy_which4	Which complementary/ alternative medicine did/do you receive? (4)	4	helminthic therapy (TSO)		discrete	QUPG	question form popgen
+t1880_alt_therapy_which4	1880	alt_therapy_which4	Which complementary/ alternative medicine did/do you receive? (4)	5	curcumin		discrete	QUPG	question form popgen
+t1880_alt_therapy_which4	1880	alt_therapy_which4	Which complementary/ alternative medicine did/do you receive? (4)	6	phytotherapy		discrete	QUPG	question form popgen
+t1880_alt_therapy_which4	1880	alt_therapy_which4	Which complementary/ alternative medicine did/do you receive? (4)	7	immunomodulation		discrete	QUPG	question form popgen
+t1880_alt_therapy_which4	1880	alt_therapy_which4	Which complementary/ alternative medicine did/do you receive? (4)	8	probiotics		discrete	QUPG	question form popgen
+t1880_alt_therapy_which4	1880	alt_therapy_which4	Which complementary/ alternative medicine did/do you receive? (4)	9	homeopathy		discrete	QUPG	question form popgen
+t1880_alt_therapy_which4	1880	alt_therapy_which4	Which complementary/ alternative medicine did/do you receive? (4)	10	other		discrete	QUPG	question form popgen
+t1880_alt_therapy_which4	1880	alt_therapy_which4	Which complementary/ alternative medicine did/do you receive? (4)	7777777	unreadable/inconsistent		discrete	QUPG	question form popgen
+t1880_alt_therapy_which4	1880	alt_therapy_which4	Which complementary/ alternative medicine did/do you receive? (4)	9999999	missing		discrete	QUPG	question form popgen
+t1881_alt_therapy_months4	1881	alt_therapy_months4	How many months did you receive the complementary/ alternative therapy? (4)	0 - 450			continuous	QUPG	question form popgen
+t1881_alt_therapy_months4	1881	alt_therapy_months4	How many months did you receive the complementary/ alternative therapy? (4)	888	when needed		continuous	QUPG	question form popgen
+t1881_alt_therapy_months4	1881	alt_therapy_months4	How many months did you receive the complementary/ alternative therapy? (4)	999	always		continuous	QUPG	question form popgen
+t1881_alt_therapy_months4	1881	alt_therapy_months4	How many months did you receive the complementary/ alternative therapy? (4)	7777777	unreadable/inconsistent		continuous	QUPG	question form popgen
+t1881_alt_therapy_months4	1881	alt_therapy_months4	How many months did you receive the complementary/ alternative therapy? (4)	9999999	missing		continuous	QUPG	question form popgen
+t1882_alt_therapy_which5	1882	alt_therapy_which5	Which complementary/ alternative medicine did/do you receive? (5)	1	Indian plantago		discrete	QUPG	question form popgen
+t1882_alt_therapy_which5	1882	alt_therapy_which5	Which complementary/ alternative medicine did/do you receive? (5)	2	yoga		discrete	QUPG	question form popgen
+t1882_alt_therapy_which5	1882	alt_therapy_which5	Which complementary/ alternative medicine did/do you receive? (5)	3	acupuncture		discrete	QUPG	question form popgen
+t1882_alt_therapy_which5	1882	alt_therapy_which5	Which complementary/ alternative medicine did/do you receive? (5)	4	helminthic therapy (TSO)		discrete	QUPG	question form popgen
+t1882_alt_therapy_which5	1882	alt_therapy_which5	Which complementary/ alternative medicine did/do you receive? (5)	5	curcumin		discrete	QUPG	question form popgen
+t1882_alt_therapy_which5	1882	alt_therapy_which5	Which complementary/ alternative medicine did/do you receive? (5)	6	phytotherapy		discrete	QUPG	question form popgen
+t1882_alt_therapy_which5	1882	alt_therapy_which5	Which complementary/ alternative medicine did/do you receive? (5)	7	immunomodulation		discrete	QUPG	question form popgen
+t1882_alt_therapy_which5	1882	alt_therapy_which5	Which complementary/ alternative medicine did/do you receive? (5)	8	probiotics		discrete	QUPG	question form popgen
+t1882_alt_therapy_which5	1882	alt_therapy_which5	Which complementary/ alternative medicine did/do you receive? (5)	9	homeopathy		discrete	QUPG	question form popgen
+t1882_alt_therapy_which5	1882	alt_therapy_which5	Which complementary/ alternative medicine did/do you receive? (5)	10	other		discrete	QUPG	question form popgen
+t1882_alt_therapy_which5	1882	alt_therapy_which5	Which complementary/ alternative medicine did/do you receive? (5)	7777777	unreadable/inconsistent		discrete	QUPG	question form popgen
+t1882_alt_therapy_which5	1882	alt_therapy_which5	Which complementary/ alternative medicine did/do you receive? (5)	9999999	missing		discrete	QUPG	question form popgen
+t1883_alt_therapy_months5	1883	alt_therapy_months5	How many months did you receive the complementary/ alternative therapy? (5)	0 - 450			continuous	QUPG	question form popgen
+t1883_alt_therapy_months5	1883	alt_therapy_months5	How many months did you receive the complementary/ alternative therapy? (5)	888	when needed		continuous	QUPG	question form popgen
+t1883_alt_therapy_months5	1883	alt_therapy_months5	How many months did you receive the complementary/ alternative therapy? (5)	999	always		continuous	QUPG	question form popgen
+t1883_alt_therapy_months5	1883	alt_therapy_months5	How many months did you receive the complementary/ alternative therapy? (5)	7777777	unreadable/inconsistent		continuous	QUPG	question form popgen
+t1883_alt_therapy_months5	1883	alt_therapy_months5	How many months did you receive the complementary/ alternative therapy? (5)	9999999	missing		continuous	QUPG	question form popgen
+t1885_4_defecat_3_months	1885	4_defecat_3_months	Do you or did you have more than 4 defecations per day over a period of more than 3 months (follow-up of studies before 05/2016: after the previous date of sampling)?	1	yes		discrete	QUPG	question form popgen
+t1885_4_defecat_3_months	1885	4_defecat_3_months	Do you or did you have more than 4 defecations per day over a period of more than 3 months (follow-up of studies before 05/2016: after the previous date of sampling)?	2	no		discrete	QUPG	question form popgen
+t1885_4_defecat_3_months	1885	4_defecat_3_months	Do you or did you have more than 4 defecations per day over a period of more than 3 months (follow-up of studies before 05/2016: after the previous date of sampling)?	3	do not know		discrete	QUPG	question form popgen
+t1885_4_defecat_3_months	1885	4_defecat_3_months	Do you or did you have more than 4 defecations per day over a period of more than 3 months (follow-up of studies before 05/2016: after the previous date of sampling)?	7777777	unreadable/inconsistent		discrete	QUPG	question form popgen
+t1885_4_defecat_3_months	1885	4_defecat_3_months	Do you or did you have more than 4 defecations per day over a period of more than 3 months (follow-up of studies before 05/2016: after the previous date of sampling)?	9999999	missing		discrete	QUPG	question form popgen
+t1886_defecat_yesterday_n	1886	defecat_yesterday_n	How many defecations did you have yesterday ?	0 - 30			continuous	QUPG	question form popgen
+t1886_defecat_yesterday_n	1886	defecat_yesterday_n	How many defecations did you have yesterday ?	111	Stoma		continuous	QUPG	question form popgen
+t1886_defecat_yesterday_n	1886	defecat_yesterday_n	How many defecations did you have yesterday ?	7777777	unreadable/inconsistent		continuous	QUPG	question form popgen
+t1886_defecat_yesterday_n	1886	defecat_yesterday_n	How many defecations did you have yesterday ?	9999999	missing		continuous	QUPG	question form popgen
+t1887_stool_consist_day	1887	stool_consist_day	How many of the defecations during the last day were fluid to mushy ?	0 - 30			continuous	QUPG	question form popgen
+t1887_stool_consist_day	1887	stool_consist_day	How many of the defecations during the last day were fluid to mushy ?	7777777	unreadable/inconsistent		continuous	QUPG	question form popgen
+t1887_stool_consist_day	1887	stool_consist_day	How many of the defecations during the last day were fluid to mushy ?	9999999	missing		continuous	QUPG	question form popgen
+t1888_defecat_night_n	1888	defecat_night_n	How many defecations did you have last night ?	0 - 20			continuous	QUPG	question form popgen
+t1888_defecat_night_n	1888	defecat_night_n	How many defecations did you have last night ?	111	Stoma		continuous	QUPG	question form popgen
+t1888_defecat_night_n	1888	defecat_night_n	How many defecations did you have last night ?	222	Pouch		continuous	QUPG	question form popgen
+t1888_defecat_night_n	1888	defecat_night_n	How many defecations did you have last night ?	7777777	unreadable/inconsistent		continuous	QUPG	question form popgen
+t1888_defecat_night_n	1888	defecat_night_n	How many defecations did you have last night ?	9999999	missing		continuous	QUPG	question form popgen
+t1890_blood_in_stool_24h	1890	blood_in_stool_24h	Did you detect blood in your stool during the last 24 hours?	0	unknown		discrete	QUPG	question form popgen
+t1890_blood_in_stool_24h	1890	blood_in_stool_24h	Did you detect blood in your stool during the last 24 hours?	1	yes, a little		discrete	QUPG	question form popgen
+t1890_blood_in_stool_24h	1890	blood_in_stool_24h	Did you detect blood in your stool during the last 24 hours?	2	yes, a lot		discrete	QUPG	question form popgen
+t1890_blood_in_stool_24h	1890	blood_in_stool_24h	Did you detect blood in your stool during the last 24 hours?	3	no		discrete	QUPG	question form popgen
+t1890_blood_in_stool_24h	1890	blood_in_stool_24h	Did you detect blood in your stool during the last 24 hours?	4	do not know		discrete	QUPG	question form popgen
+t1890_blood_in_stool_24h	1890	blood_in_stool_24h	Did you detect blood in your stool during the last 24 hours?	7777777	unreadable/inconsistent		discrete	QUPG	question form popgen
+t1890_blood_in_stool_24h	1890	blood_in_stool_24h	Did you detect blood in your stool during the last 24 hours?	9999999	missing		discrete	QUPG	question form popgen
+t1891_rectal_tenesmus	1891	rectal_tenesmus	How was your rectal tenesmus during the last 24 hours?	0	unknown		discrete	QUPG	question form popgen
+t1891_rectal_tenesmus	1891	rectal_tenesmus	How was your rectal tenesmus during the last 24 hours?	1	normal		discrete	QUPG	question form popgen
+t1891_rectal_tenesmus	1891	rectal_tenesmus	How was your rectal tenesmus during the last 24 hours?	2	hasty rectal tenesmus		discrete	QUPG	question form popgen
+t1891_rectal_tenesmus	1891	rectal_tenesmus	How was your rectal tenesmus during the last 24 hours?	3	continuous, but controllable		discrete	QUPG	question form popgen
+t1891_rectal_tenesmus	1891	rectal_tenesmus	How was your rectal tenesmus during the last 24 hours?	4	anal incontinence		discrete	QUPG	question form popgen
+t1891_rectal_tenesmus	1891	rectal_tenesmus	How was your rectal tenesmus during the last 24 hours?	12	normal + hasty rectal tenesmus		discrete	QUPG	question form popgen
+t1891_rectal_tenesmus	1891	rectal_tenesmus	How was your rectal tenesmus during the last 24 hours?	13	normal + continuous, but contr		discrete	QUPG	question form popgen
+t1891_rectal_tenesmus	1891	rectal_tenesmus	How was your rectal tenesmus during the last 24 hours?	14	normal + anal incontinence		discrete	QUPG	question form popgen
+t1891_rectal_tenesmus	1891	rectal_tenesmus	How was your rectal tenesmus during the last 24 hours?	23	hasty + continuous		discrete	QUPG	question form popgen
+t1891_rectal_tenesmus	1891	rectal_tenesmus	How was your rectal tenesmus during the last 24 hours?	24	hasty + anal incontinence		discrete	QUPG	question form popgen
+t1891_rectal_tenesmus	1891	rectal_tenesmus	How was your rectal tenesmus during the last 24 hours?	7777777	unreadable/inconsistent		discrete	QUPG	question form popgen
+t1891_rectal_tenesmus	1891	rectal_tenesmus	How was your rectal tenesmus during the last 24 hours?	9999999	missing		discrete	QUPG	question form popgen
+t1892_fever_last_week	1892	fever_last_week	Did you have fever (more than 37,8 °C) during the last 7 days?	0	unknown		discrete	QUPG	question form popgen
+t1892_fever_last_week	1892	fever_last_week	Did you have fever (more than 37,8 °C) during the last 7 days?	1	yes		discrete	QUPG	question form popgen
+t1892_fever_last_week	1892	fever_last_week	Did you have fever (more than 37,8 °C) during the last 7 days?	2	no		discrete	QUPG	question form popgen
+t1892_fever_last_week	1892	fever_last_week	Did you have fever (more than 37,8 °C) during the last 7 days?	3	do not know		discrete	QUPG	question form popgen
+t1892_fever_last_week	1892	fever_last_week	Did you have fever (more than 37,8 °C) during the last 7 days?	7777777	unreadable/inconsistent		discrete	QUPG	question form popgen
+t1892_fever_last_week	1892	fever_last_week	Did you have fever (more than 37,8 °C) during the last 7 days?	9999999	missing		discrete	QUPG	question form popgen
+t1910_stool_day	1910	stool_day	Date of taking stool sample: day	1 - 31			continuous	SACS	sample accompanying sheet
+t1910_stool_day	1910	stool_day	Date of taking stool sample: day	7777777	unreadable/inconsistent		continuous	SACS	sample accompanying sheet
+t1910_stool_day	1910	stool_day	Date of taking stool sample: day	9999999	missing		continuous	SACS	sample accompanying sheet
+t1911_stool_month	1911	stool_month	Date of taking stool sample: month	1 - 12			continuous	SACS	sample accompanying sheet
+t1911_stool_month	1911	stool_month	Date of taking stool sample: month	7777777	unreadable/inconsistent		continuous	SACS	sample accompanying sheet
+t1911_stool_month	1911	stool_month	Date of taking stool sample: month	9999999	missing		continuous	SACS	sample accompanying sheet
+t1912_stool_year	1912	stool_year	Date of taking stool sample: year	1900 - 2100			continuous	SACS	sample accompanying sheet
+t1912_stool_year	1912	stool_year	Date of taking stool sample: year	7777777	unreadable/inconsistent		continuous	SACS	sample accompanying sheet
+t1912_stool_year	1912	stool_year	Date of taking stool sample: year	9999999	missing		continuous	SACS	sample accompanying sheet
+t1913_stool_hour	1913	stool_hour	Time of taking stool sample: hour	0 - 23			continuous	SACS	sample accompanying sheet
+t1913_stool_hour	1913	stool_hour	Time of taking stool sample: hour	7777777	unreadable/inconsistent		continuous	SACS	sample accompanying sheet
+t1913_stool_hour	1913	stool_hour	Time of taking stool sample: hour	9999999	missing		continuous	SACS	sample accompanying sheet
+t1914_stool_minute	1914	stool_minute	Time of taking stool sample: minute	0 - 59			continuous	SACS	sample accompanying sheet
+t1914_stool_minute	1914	stool_minute	Time of taking stool sample: minute	7777777	unreadable/inconsistent		continuous	SACS	sample accompanying sheet
+t1914_stool_minute	1914	stool_minute	Time of taking stool sample: minute	9999999	missing		continuous	SACS	sample accompanying sheet
+t1915_diabetes_type_2	1915	diabetes_type_2	Which type of diabetes has been diagnosed? (2)	0	unknown		discrete	QUPG	question form popgen
+t1915_diabetes_type_2	1915	diabetes_type_2	Which type of diabetes has been diagnosed? (2)	1	juvenile-onset diabetes (I)		discrete	QUPG	question form popgen
+t1915_diabetes_type_2	1915	diabetes_type_2	Which type of diabetes has been diagnosed? (2)	2	adult onset diabetes (II)		discrete	QUPG	question form popgen
+t1915_diabetes_type_2	1915	diabetes_type_2	Which type of diabetes has been diagnosed? (2)	3	other diabetes		discrete	QUPG	question form popgen
+t1915_diabetes_type_2	1915	diabetes_type_2	Which type of diabetes has been diagnosed? (2)	4	do not know		discrete	QUPG	question form popgen
+t1915_diabetes_type_2	1915	diabetes_type_2	Which type of diabetes has been diagnosed? (2)	7777777	unreadable/inconsistent		discrete	QUPG	question form popgen
+t1915_diabetes_type_2	1915	diabetes_type_2	Which type of diabetes has been diagnosed? (2)	9999999	missing		discrete	QUPG	question form popgen
+t1916_diabetes_2_year	1916	diabetes_2_year	Which year did the second diabetes occur?	1900 - 2030			continuous	QUPG	question form popgen
+t1916_diabetes_2_year	1916	diabetes_2_year	Which year did the second diabetes occur?	7777777	unreadable/inconsistent		continuous	QUPG	question form popgen
+t1916_diabetes_2_year	1916	diabetes_2_year	Which year did the second diabetes occur?	9999999	missing		continuous	QUPG	question form popgen
+t1917_diabetes_2_age	1917	diabetes_2_age	How old have you been when the second diabetes occured?	0 - 110			continuous	QUPG	question form popgen
+t1917_diabetes_2_age	1917	diabetes_2_age	How old have you been when the second diabetes occured?	7777777	unreadable/inconsistent		continuous	QUPG	question form popgen
+t1917_diabetes_2_age	1917	diabetes_2_age	How old have you been when the second diabetes occured?	9999999	missing		continuous	QUPG	question form popgen
+t1922_antibiotics_6_weeks	1922	antibiotics_6_weeks	Have you been treated with antibiotics during the last 6 weeks?	1	yes		discrete	QUPG	question form popgen
+t1922_antibiotics_6_weeks	1922	antibiotics_6_weeks	Have you been treated with antibiotics during the last 6 weeks?	2	no		discrete	QUPG	question form popgen
+t1922_antibiotics_6_weeks	1922	antibiotics_6_weeks	Have you been treated with antibiotics during the last 6 weeks?	3	do not know		discrete	QUPG	question form popgen
+t1922_antibiotics_6_weeks	1922	antibiotics_6_weeks	Have you been treated with antibiotics during the last 6 weeks?	7777777	unreadable/inconsistent		discrete	QUPG	question form popgen
+t1922_antibiotics_6_weeks	1922	antibiotics_6_weeks	Have you been treated with antibiotics during the last 6 weeks?	9999999	missing		discrete	QUPG	question form popgen
+t13295_medicament4_C	13295	medicament4_C	Which medicaments do you take regularly? (4)	1	hormone preparations		discrete	QUPG	question form popgen
+t13295_medicament4_C	13295	medicament4_C	Which medicaments do you take regularly? (4)	2	birth control pill		discrete	QUPG	question form popgen
+t13295_medicament4_C	13295	medicament4_C	Which medicaments do you take regularly? (4)	3	cortisone		discrete	QUPG	question form popgen
+t13295_medicament4_C	13295	medicament4_C	Which medicaments do you take regularly? (4)	4	pain medication		discrete	QUPG	question form popgen
+t13295_medicament4_C	13295	medicament4_C	Which medicaments do you take regularly? (4)	5	other (see Excel file)		discrete	QUPG	question form popgen
+t13295_medicament4_C	13295	medicament4_C	Which medicaments do you take regularly? (4)	7777777	unreadable/inconsistent		discrete	QUPG	question form popgen
+t13295_medicament4_C	13295	medicament4_C	Which medicaments do you take regularly? (4)	9999999	missing		discrete	QUPG	question form popgen
+t13296_medicament_since_4	13296	medicament_since_4	Since when (year) do you take the medicament? (4)	1900 - 2030			continuous	QUPG	question form popgen
+t13296_medicament_since_4	13296	medicament_since_4	Since when (year) do you take the medicament? (4)	7777777	unreadable/inconsistent		continuous	QUPG	question form popgen
+t13296_medicament_since_4	13296	medicament_since_4	Since when (year) do you take the medicament? (4)	9999999	missing		continuous	QUPG	question form popgen
+t13297_liver_disease_D	13297	liver_disease_D	Which liver disease has been diagnosed?	1	hepatitis		discrete	QUPG	question form popgen
+t13297_liver_disease_D	13297	liver_disease_D	Which liver disease has been diagnosed?	2	autoimmune hepatitis		discrete	QUPG	question form popgen
+t13297_liver_disease_D	13297	liver_disease_D	Which liver disease has been diagnosed?	3	primary biliary cirrhosis		discrete	QUPG	question form popgen
+t13297_liver_disease_D	13297	liver_disease_D	Which liver disease has been diagnosed?	4	primary sclerosing cholangitis		discrete	QUPG	question form popgen
+t13297_liver_disease_D	13297	liver_disease_D	Which liver disease has been diagnosed?	5	autoimmune hep. + PBC		discrete	QUPG	question form popgen
+t13297_liver_disease_D	13297	liver_disease_D	Which liver disease has been diagnosed?	6	autoimmune hep. + PSC		discrete	QUPG	question form popgen
+t13297_liver_disease_D	13297	liver_disease_D	Which liver disease has been diagnosed?	7	fatty liver		discrete	QUPG	question form popgen
+t13297_liver_disease_D	13297	liver_disease_D	Which liver disease has been diagnosed?	8	cirrhosis		discrete	QUPG	question form popgen
+t13297_liver_disease_D	13297	liver_disease_D	Which liver disease has been diagnosed?	9	other (see Excel file)		discrete	QUPG	question form popgen
+t13297_liver_disease_D	13297	liver_disease_D	Which liver disease has been diagnosed?	7777777	unreadable/inconsistent		discrete	QUPG	question form popgen
+t13297_liver_disease_D	13297	liver_disease_D	Which liver disease has been diagnosed?	9999999	missing		discrete	QUPG	question form popgen
+t13298_liver_disease2_D	13298	liver_disease2_D	Which liver disease has been diagnosed? (2)	1	hepatitis		discrete	QUPG	question form popgen
+t13298_liver_disease2_D	13298	liver_disease2_D	Which liver disease has been diagnosed? (2)	2	autoimmune hepatitis		discrete	QUPG	question form popgen
+t13298_liver_disease2_D	13298	liver_disease2_D	Which liver disease has been diagnosed? (2)	3	primary biliary cirrhosis		discrete	QUPG	question form popgen
+t13298_liver_disease2_D	13298	liver_disease2_D	Which liver disease has been diagnosed? (2)	4	primary sclerosing cholangitis		discrete	QUPG	question form popgen
+t13298_liver_disease2_D	13298	liver_disease2_D	Which liver disease has been diagnosed? (2)	5	autoimmune hep. + PBC		discrete	QUPG	question form popgen
+t13298_liver_disease2_D	13298	liver_disease2_D	Which liver disease has been diagnosed? (2)	6	autoimmune hep. + PSC		discrete	QUPG	question form popgen
+t13298_liver_disease2_D	13298	liver_disease2_D	Which liver disease has been diagnosed? (2)	7	fatty liver		discrete	QUPG	question form popgen
+t13298_liver_disease2_D	13298	liver_disease2_D	Which liver disease has been diagnosed? (2)	8	cirrhosis		discrete	QUPG	question form popgen
+t13298_liver_disease2_D	13298	liver_disease2_D	Which liver disease has been diagnosed? (2)	9	other (see Excel file)		discrete	QUPG	question form popgen
+t13298_liver_disease2_D	13298	liver_disease2_D	Which liver disease has been diagnosed? (2)	7777777	unreadable/inconsistent		discrete	QUPG	question form popgen
+t13298_liver_disease2_D	13298	liver_disease2_D	Which liver disease has been diagnosed? (2)	9999999	missing		discrete	QUPG	question form popgen
+t13299_liver_disease3_D	13299	liver_disease3_D	Which liver disease has been diagnosed? (3)	1	hepatitis		discrete	QUPG	question form popgen
+t13299_liver_disease3_D	13299	liver_disease3_D	Which liver disease has been diagnosed? (3)	2	autoimmune hepatitis		discrete	QUPG	question form popgen
+t13299_liver_disease3_D	13299	liver_disease3_D	Which liver disease has been diagnosed? (3)	3	primary biliary cirrhosis		discrete	QUPG	question form popgen
+t13299_liver_disease3_D	13299	liver_disease3_D	Which liver disease has been diagnosed? (3)	4	primary sclerosing cholangitis		discrete	QUPG	question form popgen
+t13299_liver_disease3_D	13299	liver_disease3_D	Which liver disease has been diagnosed? (3)	5	autoimmune hep. + PBC		discrete	QUPG	question form popgen
+t13299_liver_disease3_D	13299	liver_disease3_D	Which liver disease has been diagnosed? (3)	6	autoimmune hep. + PSC		discrete	QUPG	question form popgen
+t13299_liver_disease3_D	13299	liver_disease3_D	Which liver disease has been diagnosed? (3)	7	fatty liver		discrete	QUPG	question form popgen
+t13299_liver_disease3_D	13299	liver_disease3_D	Which liver disease has been diagnosed? (3)	8	cirrhosis		discrete	QUPG	question form popgen
+t13299_liver_disease3_D	13299	liver_disease3_D	Which liver disease has been diagnosed? (3)	9	other (see Excel file)		discrete	QUPG	question form popgen
+t13299_liver_disease3_D	13299	liver_disease3_D	Which liver disease has been diagnosed? (3)	7777777	unreadable/inconsistent		discrete	QUPG	question form popgen
+t13299_liver_disease3_D	13299	liver_disease3_D	Which liver disease has been diagnosed? (3)	9999999	missing		discrete	QUPG	question form popgen
+t13300_liver_disease3_year	13300	liver_disease3_year	Which year did the third liver disease occur?	1900 - 2030			continuous	QUPG	question form popgen
+t13300_liver_disease3_year	13300	liver_disease3_year	Which year did the third liver disease occur?	7777777	unreadable/inconsistent		continuous	QUPG	question form popgen
+t13300_liver_disease3_year	13300	liver_disease3_year	Which year did the third liver disease occur?	9999999	missing		continuous	QUPG	question form popgen
+t13302_liver_disease4_D	13302	liver_disease4_D	Which liver disease has been diagnosed? (4)	1	hepatitis		discrete	QUPG	question form popgen
+t13302_liver_disease4_D	13302	liver_disease4_D	Which liver disease has been diagnosed? (4)	2	autoimmune hepatitis		discrete	QUPG	question form popgen
+t13302_liver_disease4_D	13302	liver_disease4_D	Which liver disease has been diagnosed? (4)	3	primary biliary cirrhosis		discrete	QUPG	question form popgen
+t13302_liver_disease4_D	13302	liver_disease4_D	Which liver disease has been diagnosed? (4)	4	primary sclerosing cholangitis		discrete	QUPG	question form popgen
+t13302_liver_disease4_D	13302	liver_disease4_D	Which liver disease has been diagnosed? (4)	5	autoimmune hep. + PBC		discrete	QUPG	question form popgen
+t13302_liver_disease4_D	13302	liver_disease4_D	Which liver disease has been diagnosed? (4)	6	autoimmune hep. + PSC		discrete	QUPG	question form popgen
+t13302_liver_disease4_D	13302	liver_disease4_D	Which liver disease has been diagnosed? (4)	7	fatty liver		discrete	QUPG	question form popgen
+t13302_liver_disease4_D	13302	liver_disease4_D	Which liver disease has been diagnosed? (4)	8	cirrhosis		discrete	QUPG	question form popgen
+t13302_liver_disease4_D	13302	liver_disease4_D	Which liver disease has been diagnosed? (4)	9	other (see Excel file)		discrete	QUPG	question form popgen
+t13302_liver_disease4_D	13302	liver_disease4_D	Which liver disease has been diagnosed? (4)	7777777	unreadable/inconsistent		discrete	QUPG	question form popgen
+t13302_liver_disease4_D	13302	liver_disease4_D	Which liver disease has been diagnosed? (4)	9999999	missing		discrete	QUPG	question form popgen
+t13303_liver_disease4_year	13303	liver_disease4_year	Which year did the fourth liver disease occur?	1900 - 2030			continuous	QUPG	question form popgen
+t13303_liver_disease4_year	13303	liver_disease4_year	Which year did the fourth liver disease occur?	7777777	unreadable/inconsistent		continuous	QUPG	question form popgen
+t13303_liver_disease4_year	13303	liver_disease4_year	Which year did the fourth liver disease occur?	9999999	missing		continuous	QUPG	question form popgen
+t13304_liver_disease4_age	13304	liver_disease4_age	How old have you been when the fourth liver disease occured?	0 - 120			continuous	QUPG	question form popgen
+t13304_liver_disease4_age	13304	liver_disease4_age	How old have you been when the fourth liver disease occured?	7777777	unreadable/inconsistent		continuous	QUPG	question form popgen
+t13304_liver_disease4_age	13304	liver_disease4_age	How old have you been when the fourth liver disease occured?	9999999	missing		continuous	QUPG	question form popgen
+t13305_liver_disease5_D	13305	liver_disease5_D	Which liver disease has been diagnosed? (5)	1	hepatitis		discrete	QUPG	question form popgen
+t13305_liver_disease5_D	13305	liver_disease5_D	Which liver disease has been diagnosed? (5)	2	autoimmune hepatitis		discrete	QUPG	question form popgen
+t13305_liver_disease5_D	13305	liver_disease5_D	Which liver disease has been diagnosed? (5)	3	primary biliary cirrhosis		discrete	QUPG	question form popgen
+t13305_liver_disease5_D	13305	liver_disease5_D	Which liver disease has been diagnosed? (5)	4	primary sclerosing cholangitis		discrete	QUPG	question form popgen
+t13305_liver_disease5_D	13305	liver_disease5_D	Which liver disease has been diagnosed? (5)	5	autoimmune hep. + PBC		discrete	QUPG	question form popgen
+t13305_liver_disease5_D	13305	liver_disease5_D	Which liver disease has been diagnosed? (5)	6	autoimmune hep. + PSC		discrete	QUPG	question form popgen
+t13305_liver_disease5_D	13305	liver_disease5_D	Which liver disease has been diagnosed? (5)	7	fatty liver		discrete	QUPG	question form popgen
+t13305_liver_disease5_D	13305	liver_disease5_D	Which liver disease has been diagnosed? (5)	8	cirrhosis		discrete	QUPG	question form popgen
+t13305_liver_disease5_D	13305	liver_disease5_D	Which liver disease has been diagnosed? (5)	9	other (see Excel file)		discrete	QUPG	question form popgen
+t13305_liver_disease5_D	13305	liver_disease5_D	Which liver disease has been diagnosed? (5)	7777777	unreadable/inconsistent		discrete	QUPG	question form popgen
+t13305_liver_disease5_D	13305	liver_disease5_D	Which liver disease has been diagnosed? (5)	9999999	missing		discrete	QUPG	question form popgen
+t13306_liver_disease5_year	13306	liver_disease5_year	Which year did the fifth liver disease occur?	1900 - 2030			continuous	QUPG	question form popgen
+t13306_liver_disease5_year	13306	liver_disease5_year	Which year did the fifth liver disease occur?	7777777	unreadable/inconsistent		continuous	QUPG	question form popgen
+t13306_liver_disease5_year	13306	liver_disease5_year	Which year did the fifth liver disease occur?	9999999	missing		continuous	QUPG	question form popgen
+t13314_small_duct_PSC	13314	small_duct_PSC	Are only the small biliary tracts affected by PSC (small duct PSC)?	0	unknown		discrete	QUPG	question form popgen
+t13314_small_duct_PSC	13314	small_duct_PSC	Are only the small biliary tracts affected by PSC (small duct PSC)?	1	yes, small duct PSC		discrete	QUPG	question form popgen
+t13314_small_duct_PSC	13314	small_duct_PSC	Are only the small biliary tracts affected by PSC (small duct PSC)?	2	also large duct affected		discrete	QUPG	question form popgen
+t13314_small_duct_PSC	13314	small_duct_PSC	Are only the small biliary tracts affected by PSC (small duct PSC)?	3	do not know		discrete	QUPG	question form popgen
+t13314_small_duct_PSC	13314	small_duct_PSC	Are only the small biliary tracts affected by PSC (small duct PSC)?	7777777	unreadable/inconsistent		discrete	QUPG	question form popgen
+t13314_small_duct_PSC	13314	small_duct_PSC	Are only the small biliary tracts affected by PSC (small duct PSC)?	9999999	missing		discrete	QUPG	question form popgen
+t13316_liver_transplant	13316	liver_transplant	Was a liver transplantation carried out?	0	unknown		discrete	QUPG	question form popgen
+t13316_liver_transplant	13316	liver_transplant	Was a liver transplantation carried out?	1	yes		discrete	QUPG	question form popgen
+t13316_liver_transplant	13316	liver_transplant	Was a liver transplantation carried out?	2	no		discrete	QUPG	question form popgen
+t13316_liver_transplant	13316	liver_transplant	Was a liver transplantation carried out?	7777777	unreadable/inconsistent		discrete	QUPG	question form popgen
+t13316_liver_transplant	13316	liver_transplant	Was a liver transplantation carried out?	9999999	missing		discrete	QUPG	question form popgen
+t13356_bowel_cancer_or_susp	13356	bowel_cancer_or_susp	Have you been diagnosed with bowel cancer or is bowel cancer suspected?	1	yes		discrete	QUPG	question form popgen
+t13356_bowel_cancer_or_susp	13356	bowel_cancer_or_susp	Have you been diagnosed with bowel cancer or is bowel cancer suspected?	2	no		discrete	QUPG	question form popgen
+t13356_bowel_cancer_or_susp	13356	bowel_cancer_or_susp	Have you been diagnosed with bowel cancer or is bowel cancer suspected?	3	suspicion		discrete	QUPG	question form popgen
+t13356_bowel_cancer_or_susp	13356	bowel_cancer_or_susp	Have you been diagnosed with bowel cancer or is bowel cancer suspected?	7777777	unreadable/inconsistent		discrete	QUPG	question form popgen
+t13356_bowel_cancer_or_susp	13356	bowel_cancer_or_susp	Have you been diagnosed with bowel cancer or is bowel cancer suspected?	9999999	missing		discrete	QUPG	question form popgen
+t13364_immunosuppress_12m	13364	immunosuppress_12m	Did you take immunosuppressives due to your PSC and/ or IBD during the last 12 months (follow-up of studies before 05/2016: after the previous date of sampling)?	1	yes		discrete	QUPG	question form popgen
+t13364_immunosuppress_12m	13364	immunosuppress_12m	Did you take immunosuppressives due to your PSC and/ or IBD during the last 12 months (follow-up of studies before 05/2016: after the previous date of sampling)?	2	no		discrete	QUPG	question form popgen
+t13364_immunosuppress_12m	13364	immunosuppress_12m	Did you take immunosuppressives due to your PSC and/ or IBD during the last 12 months (follow-up of studies before 05/2016: after the previous date of sampling)?	7777777	unreadable/inconsistent		discrete	QUPG	question form popgen
+t13364_immunosuppress_12m	13364	immunosuppress_12m	Did you take immunosuppressives due to your PSC and/ or IBD during the last 12 months (follow-up of studies before 05/2016: after the previous date of sampling)?	9999999	missing		discrete	QUPG	question form popgen
+t13365_immunosuppres_dosage	13365	immunosuppres_dosage	Please state the dosage of the immunosuppressives.	1	exists (see Excel file)		discrete	QUPG	question form popgen
+t13365_immunosuppres_dosage	13365	immunosuppres_dosage	Please state the dosage of the immunosuppressives.	2	not stated		discrete	QUPG	question form popgen
+t13365_immunosuppres_dosage	13365	immunosuppres_dosage	Please state the dosage of the immunosuppressives.	7777777	unreadable/inconsistent		discrete	QUPG	question form popgen
+t13365_immunosuppres_dosage	13365	immunosuppres_dosage	Please state the dosage of the immunosuppressives.	9999999	missing		discrete	QUPG	question form popgen
+t13366_laxatives	13366	laxatives	Did you take laxatives (like Dulcolax) due to your PSC and / or IBD during the last 12 months (follow-up of studies before 05/2016: after the previous date of sampling)?	1	yes		discrete	QUPG	question form popgen
+t13366_laxatives	13366	laxatives	Did you take laxatives (like Dulcolax) due to your PSC and / or IBD during the last 12 months (follow-up of studies before 05/2016: after the previous date of sampling)?	2	no		discrete	QUPG	question form popgen
+t13366_laxatives	13366	laxatives	Did you take laxatives (like Dulcolax) due to your PSC and / or IBD during the last 12 months (follow-up of studies before 05/2016: after the previous date of sampling)?	7777777	unreadable/inconsistent		discrete	QUPG	question form popgen
+t13366_laxatives	13366	laxatives	Did you take laxatives (like Dulcolax) due to your PSC and / or IBD during the last 12 months (follow-up of studies before 05/2016: after the previous date of sampling)?	9999999	missing		discrete	QUPG	question form popgen
+t13367_antidiarrhetics_12m	13367	antidiarrhetics_12m	Did you take antidiarrhetics (like Immodium, Loperamid) due to your PSC and / or IBD during the last 12 months (follow-up of studies before 05/2016: after the previous date of sampling)?	1	yes		discrete	QUPG	question form popgen
+t13367_antidiarrhetics_12m	13367	antidiarrhetics_12m	Did you take antidiarrhetics (like Immodium, Loperamid) due to your PSC and / or IBD during the last 12 months (follow-up of studies before 05/2016: after the previous date of sampling)?	2	no		discrete	QUPG	question form popgen
+t13367_antidiarrhetics_12m	13367	antidiarrhetics_12m	Did you take antidiarrhetics (like Immodium, Loperamid) due to your PSC and / or IBD during the last 12 months (follow-up of studies before 05/2016: after the previous date of sampling)?	7777777	unreadable/inconsistent		discrete	QUPG	question form popgen
+t13367_antidiarrhetics_12m	13367	antidiarrhetics_12m	Did you take antidiarrhetics (like Immodium, Loperamid) due to your PSC and / or IBD during the last 12 months (follow-up of studies before 05/2016: after the previous date of sampling)?	9999999	missing		discrete	QUPG	question form popgen
+t13368_ursodesoxycholacid	13368	ursodesoxycholacid	Did you take the medicament Ursodesoxycholacid (UDCA) due to your PSC and / or IBD during the last 12 months (follow-up of studies before 05/2016: after the previous date of sampling)?	0	unknown		discrete	QUPG	question form popgen
+t13368_ursodesoxycholacid	13368	ursodesoxycholacid	Did you take the medicament Ursodesoxycholacid (UDCA) due to your PSC and / or IBD during the last 12 months (follow-up of studies before 05/2016: after the previous date of sampling)?	1	yes		discrete	QUPG	question form popgen
+t13368_ursodesoxycholacid	13368	ursodesoxycholacid	Did you take the medicament Ursodesoxycholacid (UDCA) due to your PSC and / or IBD during the last 12 months (follow-up of studies before 05/2016: after the previous date of sampling)?	2	no		discrete	QUPG	question form popgen
+t13368_ursodesoxycholacid	13368	ursodesoxycholacid	Did you take the medicament Ursodesoxycholacid (UDCA) due to your PSC and / or IBD during the last 12 months (follow-up of studies before 05/2016: after the previous date of sampling)?	7777777	unreadable/inconsistent		discrete	QUPG	question form popgen
+t13368_ursodesoxycholacid	13368	ursodesoxycholacid	Did you take the medicament Ursodesoxycholacid (UDCA) due to your PSC and / or IBD during the last 12 months (follow-up of studies before 05/2016: after the previous date of sampling)?	9999999	missing		discrete	QUPG	question form popgen
+t13369_UDCA_dosage	13369	UDCA_dosage	Please state the dosage of the ursodesoxycholacid (UDCA).	1	exists (see Excel file)		discrete	QUPG	question form popgen
+t13369_UDCA_dosage	13369	UDCA_dosage	Please state the dosage of the ursodesoxycholacid (UDCA).	2	not stated		discrete	QUPG	question form popgen
+t13369_UDCA_dosage	13369	UDCA_dosage	Please state the dosage of the ursodesoxycholacid (UDCA).	7777777	unreadable/inconsistent		discrete	QUPG	question form popgen
+t13369_UDCA_dosage	13369	UDCA_dosage	Please state the dosage of the ursodesoxycholacid (UDCA).	9999999	missing		discrete	QUPG	question form popgen
+t13371_last_coloscopy_month	13371	last_coloscopy_month	In which month did you have your last coloscopy?	1 - 12			continuous	QUPG	question form popgen
+t13371_last_coloscopy_month	13371	last_coloscopy_month	In which month did you have your last coloscopy?	7777777	unreadable/inconsistent		continuous	QUPG	question form popgen
+t13371_last_coloscopy_month	13371	last_coloscopy_month	In which month did you have your last coloscopy?	9999999	missing		continuous	QUPG	question form popgen
+t13372_last_coloscopy_year	13372	last_coloscopy_year	In which year did you have your last coloscopy?	1900 - 2030			continuous	QUPG	question form popgen
+t13372_last_coloscopy_year	13372	last_coloscopy_year	In which year did you have your last coloscopy?	7777777	unreadable/inconsistent		continuous	QUPG	question form popgen
+t13372_last_coloscopy_year	13372	last_coloscopy_year	In which year did you have your last coloscopy?	9999999	missing		continuous	QUPG	question form popgen
+t13373_last_coloscopy_age	13373	last_coloscopy_age	How old were you when you had your last coloscopy?	0 - 120			continuous	QUPG	question form popgen
+t13373_last_coloscopy_age	13373	last_coloscopy_age	How old were you when you had your last coloscopy?	7777777	unreadable/inconsistent		continuous	QUPG	question form popgen
+t13373_last_coloscopy_age	13373	last_coloscopy_age	How old were you when you had your last coloscopy?	9999999	missing		continuous	QUPG	question form popgen
+t13374_bowel_part_inflamed1	13374	bowel_part_inflamed1	Which parts of your bowel were inflamed at the last coloscopy? (1)	0	unknown		discrete	QUPG	question form popgen
+t13374_bowel_part_inflamed1	13374	bowel_part_inflamed1	Which parts of your bowel were inflamed at the last coloscopy? (1)	1	small intestine		discrete	QUPG	question form popgen
+t13374_bowel_part_inflamed1	13374	bowel_part_inflamed1	Which parts of your bowel were inflamed at the last coloscopy? (1)	2	transition sm. intest./colon		discrete	QUPG	question form popgen
+t13374_bowel_part_inflamed1	13374	bowel_part_inflamed1	Which parts of your bowel were inflamed at the last coloscopy? (1)	3	Pancolitis		discrete	QUPG	question form popgen
+t13374_bowel_part_inflamed1	13374	bowel_part_inflamed1	Which parts of your bowel were inflamed at the last coloscopy? (1)	4	rectum		discrete	QUPG	question form popgen
+t13374_bowel_part_inflamed1	13374	bowel_part_inflamed1	Which parts of your bowel were inflamed at the last coloscopy? (1)	5	parts of colon		discrete	QUPG	question form popgen
+t13374_bowel_part_inflamed1	13374	bowel_part_inflamed1	Which parts of your bowel were inflamed at the last coloscopy? (1)	6	no inflammation		discrete	QUPG	question form popgen
+t13374_bowel_part_inflamed1	13374	bowel_part_inflamed1	Which parts of your bowel were inflamed at the last coloscopy? (1)	7	do not know		discrete	QUPG	question form popgen
+t13374_bowel_part_inflamed1	13374	bowel_part_inflamed1	Which parts of your bowel were inflamed at the last coloscopy? (1)	7777777	unreadable/inconsistent		discrete	QUPG	question form popgen
+t13374_bowel_part_inflamed1	13374	bowel_part_inflamed1	Which parts of your bowel were inflamed at the last coloscopy? (1)	9999999	missing		discrete	QUPG	question form popgen
+t13375_bowel_part_inflamed2	13375	bowel_part_inflamed2	Which parts of your bowel were inflamed at the last coloscopy? (2)	0	unknown		discrete	QUPG	question form popgen
+t13375_bowel_part_inflamed2	13375	bowel_part_inflamed2	Which parts of your bowel were inflamed at the last coloscopy? (2)	1	small intestine		discrete	QUPG	question form popgen
+t13375_bowel_part_inflamed2	13375	bowel_part_inflamed2	Which parts of your bowel were inflamed at the last coloscopy? (2)	2	transition sm. intest./colon		discrete	QUPG	question form popgen
+t13375_bowel_part_inflamed2	13375	bowel_part_inflamed2	Which parts of your bowel were inflamed at the last coloscopy? (2)	3	Pancolitis		discrete	QUPG	question form popgen
+t13375_bowel_part_inflamed2	13375	bowel_part_inflamed2	Which parts of your bowel were inflamed at the last coloscopy? (2)	4	rectum		discrete	QUPG	question form popgen
+t13375_bowel_part_inflamed2	13375	bowel_part_inflamed2	Which parts of your bowel were inflamed at the last coloscopy? (2)	5	parts of colon		discrete	QUPG	question form popgen
+t13375_bowel_part_inflamed2	13375	bowel_part_inflamed2	Which parts of your bowel were inflamed at the last coloscopy? (2)	6	no inflammation		discrete	QUPG	question form popgen
+t13375_bowel_part_inflamed2	13375	bowel_part_inflamed2	Which parts of your bowel were inflamed at the last coloscopy? (2)	7	do not know		discrete	QUPG	question form popgen
+t13375_bowel_part_inflamed2	13375	bowel_part_inflamed2	Which parts of your bowel were inflamed at the last coloscopy? (2)	7777777	unreadable/inconsistent		discrete	QUPG	question form popgen
+t13375_bowel_part_inflamed2	13375	bowel_part_inflamed2	Which parts of your bowel were inflamed at the last coloscopy? (2)	9999999	missing		discrete	QUPG	question form popgen
+t13376_bowel_part_inflamed3	13376	bowel_part_inflamed3	Which parts of your bowel were inflamed at the last coloscopy? (3)	0	unknown		discrete	QUPG	question form popgen
+t13376_bowel_part_inflamed3	13376	bowel_part_inflamed3	Which parts of your bowel were inflamed at the last coloscopy? (3)	1	small intestine		discrete	QUPG	question form popgen
+t13376_bowel_part_inflamed3	13376	bowel_part_inflamed3	Which parts of your bowel were inflamed at the last coloscopy? (3)	2	transition sm. intest./colon		discrete	QUPG	question form popgen
+t13376_bowel_part_inflamed3	13376	bowel_part_inflamed3	Which parts of your bowel were inflamed at the last coloscopy? (3)	3	Pancolitis		discrete	QUPG	question form popgen
+t13376_bowel_part_inflamed3	13376	bowel_part_inflamed3	Which parts of your bowel were inflamed at the last coloscopy? (3)	4	rectum		discrete	QUPG	question form popgen
+t13376_bowel_part_inflamed3	13376	bowel_part_inflamed3	Which parts of your bowel were inflamed at the last coloscopy? (3)	5	parts of colon		discrete	QUPG	question form popgen
+t13376_bowel_part_inflamed3	13376	bowel_part_inflamed3	Which parts of your bowel were inflamed at the last coloscopy? (3)	6	no inflammation		discrete	QUPG	question form popgen
+t13376_bowel_part_inflamed3	13376	bowel_part_inflamed3	Which parts of your bowel were inflamed at the last coloscopy? (3)	7	do not know		discrete	QUPG	question form popgen
+t13376_bowel_part_inflamed3	13376	bowel_part_inflamed3	Which parts of your bowel were inflamed at the last coloscopy? (3)	7777777	unreadable/inconsistent		discrete	QUPG	question form popgen
+t13376_bowel_part_inflamed3	13376	bowel_part_inflamed3	Which parts of your bowel were inflamed at the last coloscopy? (3)	9999999	missing		discrete	QUPG	question form popgen
+t13377_bowel_part_inflamed4	13377	bowel_part_inflamed4	Which parts of your bowel were inflamed at the last coloscopy? (4)	0	unknown		discrete	QUPG	question form popgen
+t13377_bowel_part_inflamed4	13377	bowel_part_inflamed4	Which parts of your bowel were inflamed at the last coloscopy? (4)	1	small intestine		discrete	QUPG	question form popgen
+t13377_bowel_part_inflamed4	13377	bowel_part_inflamed4	Which parts of your bowel were inflamed at the last coloscopy? (4)	2	transition sm. intest./colon		discrete	QUPG	question form popgen
+t13377_bowel_part_inflamed4	13377	bowel_part_inflamed4	Which parts of your bowel were inflamed at the last coloscopy? (4)	3	Pancolitis		discrete	QUPG	question form popgen
+t13377_bowel_part_inflamed4	13377	bowel_part_inflamed4	Which parts of your bowel were inflamed at the last coloscopy? (4)	4	rectum		discrete	QUPG	question form popgen
+t13377_bowel_part_inflamed4	13377	bowel_part_inflamed4	Which parts of your bowel were inflamed at the last coloscopy? (4)	5	parts of colon		discrete	QUPG	question form popgen
+t13377_bowel_part_inflamed4	13377	bowel_part_inflamed4	Which parts of your bowel were inflamed at the last coloscopy? (4)	6	no inflammation		discrete	QUPG	question form popgen
+t13377_bowel_part_inflamed4	13377	bowel_part_inflamed4	Which parts of your bowel were inflamed at the last coloscopy? (4)	7	do not know		discrete	QUPG	question form popgen
+t13377_bowel_part_inflamed4	13377	bowel_part_inflamed4	Which parts of your bowel were inflamed at the last coloscopy? (4)	7777777	unreadable/inconsistent		discrete	QUPG	question form popgen
+t13377_bowel_part_inflamed4	13377	bowel_part_inflamed4	Which parts of your bowel were inflamed at the last coloscopy? (4)	9999999	missing		discrete	QUPG	question form popgen
+t13378_bowel_part_inflamed5	13378	bowel_part_inflamed5	Which parts of your bowel were inflamed at the last coloscopy? (5)	0	unknown		discrete	QUPG	question form popgen
+t13378_bowel_part_inflamed5	13378	bowel_part_inflamed5	Which parts of your bowel were inflamed at the last coloscopy? (5)	1	small intestine		discrete	QUPG	question form popgen
+t13378_bowel_part_inflamed5	13378	bowel_part_inflamed5	Which parts of your bowel were inflamed at the last coloscopy? (5)	2	transition sm. intest./colon		discrete	QUPG	question form popgen
+t13378_bowel_part_inflamed5	13378	bowel_part_inflamed5	Which parts of your bowel were inflamed at the last coloscopy? (5)	3	Pancolitis		discrete	QUPG	question form popgen
+t13378_bowel_part_inflamed5	13378	bowel_part_inflamed5	Which parts of your bowel were inflamed at the last coloscopy? (5)	4	rectum		discrete	QUPG	question form popgen
+t13378_bowel_part_inflamed5	13378	bowel_part_inflamed5	Which parts of your bowel were inflamed at the last coloscopy? (5)	5	parts of colon		discrete	QUPG	question form popgen
+t13378_bowel_part_inflamed5	13378	bowel_part_inflamed5	Which parts of your bowel were inflamed at the last coloscopy? (5)	6	no inflammation		discrete	QUPG	question form popgen
+t13378_bowel_part_inflamed5	13378	bowel_part_inflamed5	Which parts of your bowel were inflamed at the last coloscopy? (5)	7	do not know		discrete	QUPG	question form popgen
+t13378_bowel_part_inflamed5	13378	bowel_part_inflamed5	Which parts of your bowel were inflamed at the last coloscopy? (5)	7777777	unreadable/inconsistent		discrete	QUPG	question form popgen
+t13378_bowel_part_inflamed5	13378	bowel_part_inflamed5	Which parts of your bowel were inflamed at the last coloscopy? (5)	9999999	missing		discrete	QUPG	question form popgen
+t13379_colon_part_inflamed1	13379	colon_part_inflamed1	Which parts of your colon were inflamed at the last coloscopy? (1)	0	unknown		discrete	QUPG	question form popgen
+t13379_colon_part_inflamed1	13379	colon_part_inflamed1	Which parts of your colon were inflamed at the last coloscopy? (1)	1	Colon ascendens		discrete	QUPG	question form popgen
+t13379_colon_part_inflamed1	13379	colon_part_inflamed1	Which parts of your colon were inflamed at the last coloscopy? (1)	2	Colon transversum		discrete	QUPG	question form popgen
+t13379_colon_part_inflamed1	13379	colon_part_inflamed1	Which parts of your colon were inflamed at the last coloscopy? (1)	3	Colon descendens		discrete	QUPG	question form popgen
+t13379_colon_part_inflamed1	13379	colon_part_inflamed1	Which parts of your colon were inflamed at the last coloscopy? (1)	7777777	unreadable/inconsistent		discrete	QUPG	question form popgen
+t13379_colon_part_inflamed1	13379	colon_part_inflamed1	Which parts of your colon were inflamed at the last coloscopy? (1)	9999999	missing		discrete	QUPG	question form popgen
+t13380_colon_part_inflamed2	13380	colon_part_inflamed2	Which parts of your colon were inflamed at the last coloscopy? (2)	0	unknown		discrete	QUPG	question form popgen
+t13380_colon_part_inflamed2	13380	colon_part_inflamed2	Which parts of your colon were inflamed at the last coloscopy? (2)	1	Colon ascendens		discrete	QUPG	question form popgen
+t13380_colon_part_inflamed2	13380	colon_part_inflamed2	Which parts of your colon were inflamed at the last coloscopy? (2)	2	Colon transversum		discrete	QUPG	question form popgen
+t13380_colon_part_inflamed2	13380	colon_part_inflamed2	Which parts of your colon were inflamed at the last coloscopy? (2)	3	Colon descendens		discrete	QUPG	question form popgen
+t13380_colon_part_inflamed2	13380	colon_part_inflamed2	Which parts of your colon were inflamed at the last coloscopy? (2)	7777777	unreadable/inconsistent		discrete	QUPG	question form popgen
+t13380_colon_part_inflamed2	13380	colon_part_inflamed2	Which parts of your colon were inflamed at the last coloscopy? (2)	9999999	missing		discrete	QUPG	question form popgen
+t13381_colon_part_inflamed3	13381	colon_part_inflamed3	Which parts of your colon were inflamed at the last coloscopy? (3)	0	unknown		discrete	QUPG	question form popgen
+t13381_colon_part_inflamed3	13381	colon_part_inflamed3	Which parts of your colon were inflamed at the last coloscopy? (3)	1	Colon ascendens		discrete	QUPG	question form popgen
+t13381_colon_part_inflamed3	13381	colon_part_inflamed3	Which parts of your colon were inflamed at the last coloscopy? (3)	2	Colon transversum		discrete	QUPG	question form popgen
+t13381_colon_part_inflamed3	13381	colon_part_inflamed3	Which parts of your colon were inflamed at the last coloscopy? (3)	3	Colon descendens		discrete	QUPG	question form popgen
+t13381_colon_part_inflamed3	13381	colon_part_inflamed3	Which parts of your colon were inflamed at the last coloscopy? (3)	7777777	unreadable/inconsistent		discrete	QUPG	question form popgen
+t13381_colon_part_inflamed3	13381	colon_part_inflamed3	Which parts of your colon were inflamed at the last coloscopy? (3)	9999999	missing		discrete	QUPG	question form popgen
+t13382_GI_tract_inflamed1	13382	GI_tract_inflamed1	Were other parts of the gastrointestinal tract found  inflamed during additional examinations? (1)	0	unknown		discrete	QUPG	question form popgen
+t13382_GI_tract_inflamed1	13382	GI_tract_inflamed1	Were other parts of the gastrointestinal tract found  inflamed during additional examinations? (1)	1	esophagus		discrete	QUPG	question form popgen
+t13382_GI_tract_inflamed1	13382	GI_tract_inflamed1	Were other parts of the gastrointestinal tract found  inflamed during additional examinations? (1)	2	stomach		discrete	QUPG	question form popgen
+t13382_GI_tract_inflamed1	13382	GI_tract_inflamed1	Were other parts of the gastrointestinal tract found  inflamed during additional examinations? (1)	3	small intestine		discrete	QUPG	question form popgen
+t13382_GI_tract_inflamed1	13382	GI_tract_inflamed1	Were other parts of the gastrointestinal tract found  inflamed during additional examinations? (1)	4	parts of small intestine		discrete	QUPG	question form popgen
+t13382_GI_tract_inflamed1	13382	GI_tract_inflamed1	Were other parts of the gastrointestinal tract found  inflamed during additional examinations? (1)	5	no		discrete	QUPG	question form popgen
+t13382_GI_tract_inflamed1	13382	GI_tract_inflamed1	Were other parts of the gastrointestinal tract found  inflamed during additional examinations? (1)	6	do not know		discrete	QUPG	question form popgen
+t13382_GI_tract_inflamed1	13382	GI_tract_inflamed1	Were other parts of the gastrointestinal tract found  inflamed during additional examinations? (1)	7	no additional examinations		discrete	QUPG	question form popgen
+t13382_GI_tract_inflamed1	13382	GI_tract_inflamed1	Were other parts of the gastrointestinal tract found  inflamed during additional examinations? (1)	7777777	unreadable/inconsistent		discrete	QUPG	question form popgen
+t13382_GI_tract_inflamed1	13382	GI_tract_inflamed1	Were other parts of the gastrointestinal tract found  inflamed during additional examinations? (1)	9999999	missing		discrete	QUPG	question form popgen
+t13383_GI_tract_inflamed2	13383	GI_tract_inflamed2	Were other parts of the gastrointestinal tract found  inflamed during additional examinations? (2)	0	unknown		discrete	QUPG	question form popgen
+t13383_GI_tract_inflamed2	13383	GI_tract_inflamed2	Were other parts of the gastrointestinal tract found  inflamed during additional examinations? (2)	1	esophagus		discrete	QUPG	question form popgen
+t13383_GI_tract_inflamed2	13383	GI_tract_inflamed2	Were other parts of the gastrointestinal tract found  inflamed during additional examinations? (2)	2	stomach		discrete	QUPG	question form popgen
+t13383_GI_tract_inflamed2	13383	GI_tract_inflamed2	Were other parts of the gastrointestinal tract found  inflamed during additional examinations? (2)	3	small intestine		discrete	QUPG	question form popgen
+t13383_GI_tract_inflamed2	13383	GI_tract_inflamed2	Were other parts of the gastrointestinal tract found  inflamed during additional examinations? (2)	4	parts of small intestine		discrete	QUPG	question form popgen
+t13383_GI_tract_inflamed2	13383	GI_tract_inflamed2	Were other parts of the gastrointestinal tract found  inflamed during additional examinations? (2)	5	no		discrete	QUPG	question form popgen
+t13383_GI_tract_inflamed2	13383	GI_tract_inflamed2	Were other parts of the gastrointestinal tract found  inflamed during additional examinations? (2)	6	do not know		discrete	QUPG	question form popgen
+t13383_GI_tract_inflamed2	13383	GI_tract_inflamed2	Were other parts of the gastrointestinal tract found  inflamed during additional examinations? (2)	7	no additional examinations		discrete	QUPG	question form popgen
+t13383_GI_tract_inflamed2	13383	GI_tract_inflamed2	Were other parts of the gastrointestinal tract found  inflamed during additional examinations? (2)	7777777	unreadable/inconsistent		discrete	QUPG	question form popgen
+t13383_GI_tract_inflamed2	13383	GI_tract_inflamed2	Were other parts of the gastrointestinal tract found  inflamed during additional examinations? (2)	9999999	missing		discrete	QUPG	question form popgen
+t13385_fistulae	13385	fistulae	Did fistulae occur (follow-up of studies before 05/2016: after the previous date of sampling)?	0	unknown		discrete	QUPG	question form popgen
+t13385_fistulae	13385	fistulae	Did fistulae occur (follow-up of studies before 05/2016: after the previous date of sampling)?	1	yes		discrete	QUPG	question form popgen
+t13385_fistulae	13385	fistulae	Did fistulae occur (follow-up of studies before 05/2016: after the previous date of sampling)?	2	no		discrete	QUPG	question form popgen
+t13385_fistulae	13385	fistulae	Did fistulae occur (follow-up of studies before 05/2016: after the previous date of sampling)?	3	do not know		discrete	QUPG	question form popgen
+t13385_fistulae	13385	fistulae	Did fistulae occur (follow-up of studies before 05/2016: after the previous date of sampling)?	7777777	unreadable/inconsistent		discrete	QUPG	question form popgen
+t13385_fistulae	13385	fistulae	Did fistulae occur (follow-up of studies before 05/2016: after the previous date of sampling)?	9999999	missing		discrete	QUPG	question form popgen
+t13386_anal_fistulae	13386	anal_fistulae	Have anal fistulae developed during your disease?	0	unknown		discrete	QUPG	question form popgen
+t13386_anal_fistulae	13386	anal_fistulae	Have anal fistulae developed during your disease?	1	yes		discrete	QUPG	question form popgen
+t13386_anal_fistulae	13386	anal_fistulae	Have anal fistulae developed during your disease?	2	no		discrete	QUPG	question form popgen
+t13386_anal_fistulae	13386	anal_fistulae	Have anal fistulae developed during your disease?	3	do not know		discrete	QUPG	question form popgen
+t13386_anal_fistulae	13386	anal_fistulae	Have anal fistulae developed during your disease?	7777777	unreadable/inconsistent		discrete	QUPG	question form popgen
+t13386_anal_fistulae	13386	anal_fistulae	Have anal fistulae developed during your disease?	9999999	missing		discrete	QUPG	question form popgen
+t13387_anal_fistulae_n	13387	anal_fistulae_n	How many anal fistulae did you develop?	1 - 100			continuous	QUPG	question form popgen
+t13387_anal_fistulae_n	13387	anal_fistulae_n	How many anal fistulae did you develop?	7777777	unreadable/inconsistent		continuous	QUPG	question form popgen
+t13387_anal_fistulae_n	13387	anal_fistulae_n	How many anal fistulae did you develop?	9999999	missing		continuous	QUPG	question form popgen
+t13388_anal_fistulae_year1	13388	anal_fistulae_year1	Which was the first year you developed anal fistulae?	1900 - 2030			continuous	QUPG	question form popgen
+t13388_anal_fistulae_year1	13388	anal_fistulae_year1	Which was the first year you developed anal fistulae?	7777777	unreadable/inconsistent		continuous	QUPG	question form popgen
+t13388_anal_fistulae_year1	13388	anal_fistulae_year1	Which was the first year you developed anal fistulae?	9999999	missing		continuous	QUPG	question form popgen
+t13389_anal_fistulae_year2	13389	anal_fistulae_year2	Which was the last year you developed anal fistulae?	1900 - 2030			continuous	QUPG	question form popgen
+t13389_anal_fistulae_year2	13389	anal_fistulae_year2	Which was the last year you developed anal fistulae?	7777777	unreadable/inconsistent		continuous	QUPG	question form popgen
+t13389_anal_fistulae_year2	13389	anal_fistulae_year2	Which was the last year you developed anal fistulae?	9999999	missing		continuous	QUPG	question form popgen
+t13390_fistulae_loops	13390	fistulae_loops	Did fistulae between intestinal loops develop during your disease?	0	unknown		discrete	QUPG	question form popgen
+t13390_fistulae_loops	13390	fistulae_loops	Did fistulae between intestinal loops develop during your disease?	1	yes		discrete	QUPG	question form popgen
+t13390_fistulae_loops	13390	fistulae_loops	Did fistulae between intestinal loops develop during your disease?	2	no		discrete	QUPG	question form popgen
+t13390_fistulae_loops	13390	fistulae_loops	Did fistulae between intestinal loops develop during your disease?	3	do not know		discrete	QUPG	question form popgen
+t13390_fistulae_loops	13390	fistulae_loops	Did fistulae between intestinal loops develop during your disease?	7777777	unreadable/inconsistent		discrete	QUPG	question form popgen
+t13390_fistulae_loops	13390	fistulae_loops	Did fistulae between intestinal loops develop during your disease?	9999999	missing		discrete	QUPG	question form popgen
+t13391_fistulae_loops_n	13391	fistulae_loops_n	How many fistulae between intestinal loops did you develop?	1 - 20			continuous	QUPG	question form popgen
+t13391_fistulae_loops_n	13391	fistulae_loops_n	How many fistulae between intestinal loops did you develop?	7777777	unreadable/inconsistent		continuous	QUPG	question form popgen
+t13391_fistulae_loops_n	13391	fistulae_loops_n	How many fistulae between intestinal loops did you develop?	9999999	missing		continuous	QUPG	question form popgen
+t13392_fistulae_loops_year1	13392	fistulae_loops_year1	Which was the first year you developed fistulae between intestinal loops?	1900 - 2030			continuous	QUPG	question form popgen
+t13392_fistulae_loops_year1	13392	fistulae_loops_year1	Which was the first year you developed fistulae between intestinal loops?	7777777	unreadable/inconsistent		continuous	QUPG	question form popgen
+t13392_fistulae_loops_year1	13392	fistulae_loops_year1	Which was the first year you developed fistulae between intestinal loops?	9999999	missing		continuous	QUPG	question form popgen
+t13393_fistulae_loops_year2	13393	fistulae_loops_year2	Which was the last year you developed fistulae between intestinal loops?	1900 - 2030			continuous	QUPG	question form popgen
+t13393_fistulae_loops_year2	13393	fistulae_loops_year2	Which was the last year you developed fistulae between intestinal loops?	7777777	unreadable/inconsistent		continuous	QUPG	question form popgen
+t13393_fistulae_loops_year2	13393	fistulae_loops_year2	Which was the last year you developed fistulae between intestinal loops?	9999999	missing		continuous	QUPG	question form popgen
+t13394_fistulae_skin	13394	fistulae_skin	Did fistulae from bowel to skin develop during your disease?	0	unknown		discrete	QUPG	question form popgen
+t13394_fistulae_skin	13394	fistulae_skin	Did fistulae from bowel to skin develop during your disease?	1	yes		discrete	QUPG	question form popgen
+t13394_fistulae_skin	13394	fistulae_skin	Did fistulae from bowel to skin develop during your disease?	2	no		discrete	QUPG	question form popgen
+t13394_fistulae_skin	13394	fistulae_skin	Did fistulae from bowel to skin develop during your disease?	3	do not know		discrete	QUPG	question form popgen
+t13394_fistulae_skin	13394	fistulae_skin	Did fistulae from bowel to skin develop during your disease?	7777777	unreadable/inconsistent		discrete	QUPG	question form popgen
+t13394_fistulae_skin	13394	fistulae_skin	Did fistulae from bowel to skin develop during your disease?	9999999	missing		discrete	QUPG	question form popgen
+t13395_fistulae_skin_n	13395	fistulae_skin_n	How many fistulae from bowel to skin did you develop?	1 - 20			continuous	QUPG	question form popgen
+t13395_fistulae_skin_n	13395	fistulae_skin_n	How many fistulae from bowel to skin did you develop?	7777777	unreadable/inconsistent		continuous	QUPG	question form popgen
+t13395_fistulae_skin_n	13395	fistulae_skin_n	How many fistulae from bowel to skin did you develop?	9999999	missing		continuous	QUPG	question form popgen
+t13396_fistulae_skin_year1	13396	fistulae_skin_year1	Which was the first year you developed fistulae from bowel to skin?	1900 - 2030			continuous	QUPG	question form popgen
+t13396_fistulae_skin_year1	13396	fistulae_skin_year1	Which was the first year you developed fistulae from bowel to skin?	7777777	unreadable/inconsistent		continuous	QUPG	question form popgen
+t13396_fistulae_skin_year1	13396	fistulae_skin_year1	Which was the first year you developed fistulae from bowel to skin?	9999999	missing		continuous	QUPG	question form popgen
+t13397_fistulae_skin_year2	13397	fistulae_skin_year2	Which was the last year you developed fistulae from bowel to skin?	1900 - 2030			continuous	QUPG	question form popgen
+t13397_fistulae_skin_year2	13397	fistulae_skin_year2	Which was the last year you developed fistulae from bowel to skin?	7777777	unreadable/inconsistent		continuous	QUPG	question form popgen
+t13397_fistulae_skin_year2	13397	fistulae_skin_year2	Which was the last year you developed fistulae from bowel to skin?	9999999	missing		continuous	QUPG	question form popgen
+t13398_fistulae_organ	13398	fistulae_organ	Did fistulae to other organs develop during your disease?	0	unknown		discrete	QUPG	question form popgen
+t13398_fistulae_organ	13398	fistulae_organ	Did fistulae to other organs develop during your disease?	1	yes		discrete	QUPG	question form popgen
+t13398_fistulae_organ	13398	fistulae_organ	Did fistulae to other organs develop during your disease?	2	no		discrete	QUPG	question form popgen
+t13398_fistulae_organ	13398	fistulae_organ	Did fistulae to other organs develop during your disease?	3	do not know		discrete	QUPG	question form popgen
+t13398_fistulae_organ	13398	fistulae_organ	Did fistulae to other organs develop during your disease?	7777777	unreadable/inconsistent		discrete	QUPG	question form popgen
+t13398_fistulae_organ	13398	fistulae_organ	Did fistulae to other organs develop during your disease?	9999999	missing		discrete	QUPG	question form popgen
+t13399_fistulae_organ_n	13399	fistulae_organ_n	How many fistulae to other organs did you develop?	1 - 20			continuous	QUPG	question form popgen
+t13399_fistulae_organ_n	13399	fistulae_organ_n	How many fistulae to other organs did you develop?	7777777	unreadable/inconsistent		continuous	QUPG	question form popgen
+t13399_fistulae_organ_n	13399	fistulae_organ_n	How many fistulae to other organs did you develop?	9999999	missing		continuous	QUPG	question form popgen
+t13400_fistulae_organ_year1	13400	fistulae_organ_year1	Which was the first year you developed fistulae to other organs?	1900 - 2030			continuous	QUPG	question form popgen
+t13400_fistulae_organ_year1	13400	fistulae_organ_year1	Which was the first year you developed fistulae to other organs?	7777777	unreadable/inconsistent		continuous	QUPG	question form popgen
+t13400_fistulae_organ_year1	13400	fistulae_organ_year1	Which was the first year you developed fistulae to other organs?	9999999	missing		continuous	QUPG	question form popgen
+t13401_fistulae_organ_year2	13401	fistulae_organ_year2	Which was the last year you developed fistulae to other organs?	1900 - 2030			continuous	QUPG	question form popgen
+t13401_fistulae_organ_year2	13401	fistulae_organ_year2	Which was the last year you developed fistulae to other organs?	7777777	unreadable/inconsistent		continuous	QUPG	question form popgen
+t13401_fistulae_organ_year2	13401	fistulae_organ_year2	Which was the last year you developed fistulae to other organs?	9999999	missing		continuous	QUPG	question form popgen
+t13402_stenoses	13402	stenoses	Have stenoses developed during your disease?	0	unknown		discrete	QUPG	question form popgen
+t13402_stenoses	13402	stenoses	Have stenoses developed during your disease?	1	yes		discrete	QUPG	question form popgen
+t13402_stenoses	13402	stenoses	Have stenoses developed during your disease?	2	no		discrete	QUPG	question form popgen
+t13402_stenoses	13402	stenoses	Have stenoses developed during your disease?	3	do not know		discrete	QUPG	question form popgen
+t13402_stenoses	13402	stenoses	Have stenoses developed during your disease?	7777777	unreadable/inconsistent		discrete	QUPG	question form popgen
+t13402_stenoses	13402	stenoses	Have stenoses developed during your disease?	9999999	missing		discrete	QUPG	question form popgen
+t13403_stenosis_diagnose1	13403	stenosis_diagnose1	How was your stenosis diagnosed? (1)	0	unknown		discrete	QUPG	question form popgen
+t13403_stenosis_diagnose1	13403	stenosis_diagnose1	How was your stenosis diagnosed? (1)	1	ultrasonic		discrete	QUPG	question form popgen
+t13403_stenosis_diagnose1	13403	stenosis_diagnose1	How was your stenosis diagnosed? (1)	2	coloscopy 		discrete	QUPG	question form popgen
+t13403_stenosis_diagnose1	13403	stenosis_diagnose1	How was your stenosis diagnosed? (1)	3	x-ray contrast agent examin.		discrete	QUPG	question form popgen
+t13403_stenosis_diagnose1	13403	stenosis_diagnose1	How was your stenosis diagnosed? (1)	4	do not know		discrete	QUPG	question form popgen
+t13403_stenosis_diagnose1	13403	stenosis_diagnose1	How was your stenosis diagnosed? (1)	7777777	unreadable/inconsistent		discrete	QUPG	question form popgen
+t13403_stenosis_diagnose1	13403	stenosis_diagnose1	How was your stenosis diagnosed? (1)	9999999	missing		discrete	QUPG	question form popgen
+t13404_stenosis_diagnose2	13404	stenosis_diagnose2	How was your stenosis diagnosed? (2)	0	unknown		discrete	QUPG	question form popgen
+t13404_stenosis_diagnose2	13404	stenosis_diagnose2	How was your stenosis diagnosed? (2)	1	ultrasonic		discrete	QUPG	question form popgen
+t13404_stenosis_diagnose2	13404	stenosis_diagnose2	How was your stenosis diagnosed? (2)	2	coloscopy		discrete	QUPG	question form popgen
+t13404_stenosis_diagnose2	13404	stenosis_diagnose2	How was your stenosis diagnosed? (2)	3	x-ray contrast agent examin.		discrete	QUPG	question form popgen
+t13404_stenosis_diagnose2	13404	stenosis_diagnose2	How was your stenosis diagnosed? (2)	4	do not know		discrete	QUPG	question form popgen
+t13404_stenosis_diagnose2	13404	stenosis_diagnose2	How was your stenosis diagnosed? (2)	7777777	unreadable/inconsistent		discrete	QUPG	question form popgen
+t13404_stenosis_diagnose2	13404	stenosis_diagnose2	How was your stenosis diagnosed? (2)	9999999	missing		discrete	QUPG	question form popgen
+t13408_Bristol_stool_scale	13408	Bristol_stool_scale	Bristol Stool Scale, classifies the form of human faeces into seven categories.	1	type 1		discrete	QUPG	question form popgen
+t13408_Bristol_stool_scale	13408	Bristol_stool_scale	Bristol Stool Scale, classifies the form of human faeces into seven categories.	2	type 2		discrete	QUPG	question form popgen
+t13408_Bristol_stool_scale	13408	Bristol_stool_scale	Bristol Stool Scale, classifies the form of human faeces into seven categories.	3	type 3		discrete	QUPG	question form popgen
+t13408_Bristol_stool_scale	13408	Bristol_stool_scale	Bristol Stool Scale, classifies the form of human faeces into seven categories.	4	type 4		discrete	QUPG	question form popgen
+t13408_Bristol_stool_scale	13408	Bristol_stool_scale	Bristol Stool Scale, classifies the form of human faeces into seven categories.	5	type 5		discrete	QUPG	question form popgen
+t13408_Bristol_stool_scale	13408	Bristol_stool_scale	Bristol Stool Scale, classifies the form of human faeces into seven categories.	6	type 6		discrete	QUPG	question form popgen
+t13408_Bristol_stool_scale	13408	Bristol_stool_scale	Bristol Stool Scale, classifies the form of human faeces into seven categories.	7	type 7		discrete	QUPG	question form popgen
+t13408_Bristol_stool_scale	13408	Bristol_stool_scale	Bristol Stool Scale, classifies the form of human faeces into seven categories.	7777777	unreadable/inconsistent		discrete	QUPG	question form popgen
+t13408_Bristol_stool_scale	13408	Bristol_stool_scale	Bristol Stool Scale, classifies the form of human faeces into seven categories.	9999999	missing		discrete	QUPG	question form popgen
+t13528_study_medic_which	13528	study_medic_which	Which study medication did/do you take?	1	exists (see Excel file)		discrete	QUPG	question form popgen
+t13528_study_medic_which	13528	study_medic_which	Which study medication did/do you take?	7777777	unreadable/inconsistent		discrete	QUPG	question form popgen
+t13528_study_medic_which	13528	study_medic_which	Which study medication did/do you take?	9999999	missing		discrete	QUPG	question form popgen
+t13578_Calprotectin	13578	Calprotectin	Calprotectin: Detection of inflammation (measured with Bühlmann fCAL), normal values are < 50 µg/g, elevated values between 50 and 200 µg/g can represent mild organic diseases (IBD in remission), elevated els above > 200 µg/g are indicative of active organic diseases	10 - 600			continuous	LFEX	external lab findings
+t13578_Calprotectin	13578	Calprotectin	Calprotectin: Detection of inflammation (measured with Bühlmann fCAL), normal values are < 50 µg/g, elevated values between 50 and 200 µg/g can represent mild organic diseases (IBD in remission), elevated els above > 200 µg/g are indicative of active organic diseases	6666	< 30	29.0	continuous	LFEX	external lab findings
+t13578_Calprotectin	13578	Calprotectin	Calprotectin: Detection of inflammation (measured with Bühlmann fCAL), normal values are < 50 µg/g, elevated values between 50 and 200 µg/g can represent mild organic diseases (IBD in remission), elevated els above > 200 µg/g are indicative of active organic diseases	7777	> 1800 	1801.0	continuous	LFEX	external lab findings
+t13578_Calprotectin	13578	Calprotectin	Calprotectin: Detection of inflammation (measured with Bühlmann fCAL), normal values are < 50 µg/g, elevated values between 50 and 200 µg/g can represent mild organic diseases (IBD in remission), elevated els above > 200 µg/g are indicative of active organic diseases	8888	< 10	9.0	continuous	LFEX	external lab findings
+t13578_Calprotectin	13578	Calprotectin	Calprotectin: Detection of inflammation (measured with Bühlmann fCAL), normal values are < 50 µg/g, elevated values between 50 and 200 µg/g can represent mild organic diseases (IBD in remission), elevated els above > 200 µg/g are indicative of active organic diseases	9999	> 600	601.0	continuous	LFEX	external lab findings
+t13578_Calprotectin	13578	Calprotectin	Calprotectin: Detection of inflammation (measured with Bühlmann fCAL), normal values are < 50 µg/g, elevated values between 50 and 200 µg/g can represent mild organic diseases (IBD in remission), elevated els above > 200 µg/g are indicative of active organic diseases	7777777	unreadable/inconsistent		continuous	LFEX	external lab findings
+t13578_Calprotectin	13578	Calprotectin	Calprotectin: Detection of inflammation (measured with Bühlmann fCAL), normal values are < 50 µg/g, elevated values between 50 and 200 µg/g can represent mild organic diseases (IBD in remission), elevated els above > 200 µg/g are indicative of active organic diseases	9999999	missing		continuous	LFEX	external lab findings
+t13579_stool_hb	13579	stool_hb	Haemoglobin: Detection of fecal occult blood (measured with PreventID Haemo/HaptOccult)	0	negative		discrete	LFEX	external lab findings
+t13579_stool_hb	13579	stool_hb	Haemoglobin: Detection of fecal occult blood (measured with PreventID Haemo/HaptOccult)	1	positive		discrete	LFEX	external lab findings
+t13580_stool_hb_hp	13580	stool_hb_hp	Haemo-/haptoglobin-complex: Detection of fecal occult blood (measured with PreventID Haemo/HaptOccult)	0	negative		discrete	LFEX	external lab findings
+t13580_stool_hb_hp	13580	stool_hb_hp	Haemo-/haptoglobin-complex: Detection of fecal occult blood (measured with PreventID Haemo/HaptOccult)	1	positive		discrete	LFEX	external lab findings
+t14333_Bristol_stool_scale2	14333	Bristol_stool_scale2	Bristol Stool Scale, classifies the form of human faeces into seven categories. (2)	1	type 1		discrete	QUPG	question form popgen
+t14333_Bristol_stool_scale2	14333	Bristol_stool_scale2	Bristol Stool Scale, classifies the form of human faeces into seven categories. (2)	2	type 2		discrete	QUPG	question form popgen
+t14333_Bristol_stool_scale2	14333	Bristol_stool_scale2	Bristol Stool Scale, classifies the form of human faeces into seven categories. (2)	3	type 3		discrete	QUPG	question form popgen
+t14333_Bristol_stool_scale2	14333	Bristol_stool_scale2	Bristol Stool Scale, classifies the form of human faeces into seven categories. (2)	4	type 4		discrete	QUPG	question form popgen
+t14333_Bristol_stool_scale2	14333	Bristol_stool_scale2	Bristol Stool Scale, classifies the form of human faeces into seven categories. (2)	5	type 5		discrete	QUPG	question form popgen
+t14333_Bristol_stool_scale2	14333	Bristol_stool_scale2	Bristol Stool Scale, classifies the form of human faeces into seven categories. (2)	6	type 6		discrete	QUPG	question form popgen
+t14333_Bristol_stool_scale2	14333	Bristol_stool_scale2	Bristol Stool Scale, classifies the form of human faeces into seven categories. (2)	7	type 7		discrete	QUPG	question form popgen
+t14333_Bristol_stool_scale2	14333	Bristol_stool_scale2	Bristol Stool Scale, classifies the form of human faeces into seven categories. (2)	7777777	unreadable/inconsistent		discrete	QUPG	question form popgen
+t14333_Bristol_stool_scale2	14333	Bristol_stool_scale2	Bristol Stool Scale, classifies the form of human faeces into seven categories. (2)	9999999	missing		discrete	QUPG	question form popgen
+t14334_Bristol_stool_scale3	14334	Bristol_stool_scale3	Bristol Stool Scale, classifies the form of human faeces into seven categories. (3)	1	type 1		discrete	QUPG	question form popgen
+t14334_Bristol_stool_scale3	14334	Bristol_stool_scale3	Bristol Stool Scale, classifies the form of human faeces into seven categories. (3)	2	type 2		discrete	QUPG	question form popgen
+t14334_Bristol_stool_scale3	14334	Bristol_stool_scale3	Bristol Stool Scale, classifies the form of human faeces into seven categories. (3)	3	type 3		discrete	QUPG	question form popgen
+t14334_Bristol_stool_scale3	14334	Bristol_stool_scale3	Bristol Stool Scale, classifies the form of human faeces into seven categories. (3)	4	type 4		discrete	QUPG	question form popgen
+t14334_Bristol_stool_scale3	14334	Bristol_stool_scale3	Bristol Stool Scale, classifies the form of human faeces into seven categories. (3)	5	type 5		discrete	QUPG	question form popgen
+t14334_Bristol_stool_scale3	14334	Bristol_stool_scale3	Bristol Stool Scale, classifies the form of human faeces into seven categories. (3)	6	type 6		discrete	QUPG	question form popgen
+t14334_Bristol_stool_scale3	14334	Bristol_stool_scale3	Bristol Stool Scale, classifies the form of human faeces into seven categories. (3)	7	type 7		discrete	QUPG	question form popgen
+t14334_Bristol_stool_scale3	14334	Bristol_stool_scale3	Bristol Stool Scale, classifies the form of human faeces into seven categories. (3)	7777777	unreadable/inconsistent		discrete	QUPG	question form popgen
+t14334_Bristol_stool_scale3	14334	Bristol_stool_scale3	Bristol Stool Scale, classifies the form of human faeces into seven categories. (3)	9999999	missing		discrete	QUPG	question form popgen
+t14335_Bristol_stool_scale4	14335	Bristol_stool_scale4	Bristol Stool Scale, classifies the form of human faeces into seven categories. (4)	1	type 1		discrete	QUPG	question form popgen
+t14335_Bristol_stool_scale4	14335	Bristol_stool_scale4	Bristol Stool Scale, classifies the form of human faeces into seven categories. (4)	2	type 2		discrete	QUPG	question form popgen
+t14335_Bristol_stool_scale4	14335	Bristol_stool_scale4	Bristol Stool Scale, classifies the form of human faeces into seven categories. (4)	3	type 3		discrete	QUPG	question form popgen
+t14335_Bristol_stool_scale4	14335	Bristol_stool_scale4	Bristol Stool Scale, classifies the form of human faeces into seven categories. (4)	4	type 4		discrete	QUPG	question form popgen
+t14335_Bristol_stool_scale4	14335	Bristol_stool_scale4	Bristol Stool Scale, classifies the form of human faeces into seven categories. (4)	5	type 5		discrete	QUPG	question form popgen
+t14335_Bristol_stool_scale4	14335	Bristol_stool_scale4	Bristol Stool Scale, classifies the form of human faeces into seven categories. (4)	6	type 6		discrete	QUPG	question form popgen
+t14335_Bristol_stool_scale4	14335	Bristol_stool_scale4	Bristol Stool Scale, classifies the form of human faeces into seven categories. (4)	7	type 7		discrete	QUPG	question form popgen
+t14335_Bristol_stool_scale4	14335	Bristol_stool_scale4	Bristol Stool Scale, classifies the form of human faeces into seven categories. (4)	7777777	unreadable/inconsistent		discrete	QUPG	question form popgen
+t14335_Bristol_stool_scale4	14335	Bristol_stool_scale4	Bristol Stool Scale, classifies the form of human faeces into seven categories. (4)	9999999	missing		discrete	QUPG	question form popgen
+t19769_e-cigarette	19769	e-cigarette	Do you use e-cigarettes?	1	yes		discrete	QUPG	question form popgen
+t19769_e-cigarette	19769	e-cigarette	Do you use e-cigarettes?	2	no		discrete	QUPG	question form popgen
+t19769_e-cigarette	19769	e-cigarette	Do you use e-cigarettes?	7777777	unreadable/inconsistent		discrete	QUPG	question form popgen
+t19769_e-cigarette	19769	e-cigarette	Do you use e-cigarettes?	9999999	missing		discrete	QUPG	question form popgen
+t19997_alt_therapy_months6	19997	alt_therapy_months6	How many months did you receive the complementary/ alternative therapy? (6)	0 - 450			continuous	QUPG	question form popgen
+t19997_alt_therapy_months6	19997	alt_therapy_months6	How many months did you receive the complementary/ alternative therapy? (6)	888	when needed		continuous	QUPG	question form popgen
+t19997_alt_therapy_months6	19997	alt_therapy_months6	How many months did you receive the complementary/ alternative therapy? (6)	999	always		continuous	QUPG	question form popgen
+t19997_alt_therapy_months6	19997	alt_therapy_months6	How many months did you receive the complementary/ alternative therapy? (6)	7777777	unreadable/inconsistent		continuous	QUPG	question form popgen
+t19997_alt_therapy_months6	19997	alt_therapy_months6	How many months did you receive the complementary/ alternative therapy? (6)	9999999	missing		continuous	QUPG	question form popgen
+t20603_vedolizumab_12m	20603	vedolizumab_12m	Did you take the medicament Vedolizumab due to your PSC and / or IBD during the last 12 months?	1	yes		discrete	QUPG	question form popgen
+t20603_vedolizumab_12m	20603	vedolizumab_12m	Did you take the medicament Vedolizumab due to your PSC and / or IBD during the last 12 months?	2	no		discrete	QUPG	question form popgen
+t20603_vedolizumab_12m	20603	vedolizumab_12m	Did you take the medicament Vedolizumab due to your PSC and / or IBD during the last 12 months?	7777777	unreadable/inconsistent		discrete	QUPG	question form popgen
+t20603_vedolizumab_12m	20603	vedolizumab_12m	Did you take the medicament Vedolizumab due to your PSC and / or IBD during the last 12 months?	9999999	missing		discrete	QUPG	question form popgen
+t20604_ustekinumab_12m	20604	ustekinumab_12m	Did you take the medicament Ustekinumab due to your PSC and / or IBD during the last 12 months?	1	yes		discrete	QUPG	question form popgen
+t20604_ustekinumab_12m	20604	ustekinumab_12m	Did you take the medicament Ustekinumab due to your PSC and / or IBD during the last 12 months?	2	no		discrete	QUPG	question form popgen
+t20604_ustekinumab_12m	20604	ustekinumab_12m	Did you take the medicament Ustekinumab due to your PSC and / or IBD during the last 12 months?	7777777	unreadable/inconsistent		discrete	QUPG	question form popgen
+t20604_ustekinumab_12m	20604	ustekinumab_12m	Did you take the medicament Ustekinumab due to your PSC and / or IBD during the last 12 months?	9999999	missing		discrete	QUPG	question form popgen
+t20865_alt_therapy_which6	20865	alt_therapy_which6	Which complementary/ alternative medicine did/do you receive? (6)	1	Indian plantago		discrete	QUPG	question form popgen
+t20865_alt_therapy_which6	20865	alt_therapy_which6	Which complementary/ alternative medicine did/do you receive? (6)	2	yoga		discrete	QUPG	question form popgen
+t20865_alt_therapy_which6	20865	alt_therapy_which6	Which complementary/ alternative medicine did/do you receive? (6)	3	acupuncture		discrete	QUPG	question form popgen
+t20865_alt_therapy_which6	20865	alt_therapy_which6	Which complementary/ alternative medicine did/do you receive? (6)	4	helminthic therapy (TSO)		discrete	QUPG	question form popgen
+t20865_alt_therapy_which6	20865	alt_therapy_which6	Which complementary/ alternative medicine did/do you receive? (6)	5	curcumin		discrete	QUPG	question form popgen
+t20865_alt_therapy_which6	20865	alt_therapy_which6	Which complementary/ alternative medicine did/do you receive? (6)	6	phytotherapy		discrete	QUPG	question form popgen
+t20865_alt_therapy_which6	20865	alt_therapy_which6	Which complementary/ alternative medicine did/do you receive? (6)	7	immunomodulation		discrete	QUPG	question form popgen
+t20865_alt_therapy_which6	20865	alt_therapy_which6	Which complementary/ alternative medicine did/do you receive? (6)	8	probiotics		discrete	QUPG	question form popgen
+t20865_alt_therapy_which6	20865	alt_therapy_which6	Which complementary/ alternative medicine did/do you receive? (6)	9	homeopathy		discrete	QUPG	question form popgen
+t20865_alt_therapy_which6	20865	alt_therapy_which6	Which complementary/ alternative medicine did/do you receive? (6)	10	other		discrete	QUPG	question form popgen
+t20865_alt_therapy_which6	20865	alt_therapy_which6	Which complementary/ alternative medicine did/do you receive? (6)	7777777	unreadable/inconsistent		discrete	QUPG	question form popgen
+t20865_alt_therapy_which6	20865	alt_therapy_which6	Which complementary/ alternative medicine did/do you receive? (6)	9999999	missing		discrete	QUPG	question form popgen

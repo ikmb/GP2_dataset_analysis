@@ -1,18 +1,23 @@
 # Background information about the project
+# Background information about the project
 
+## Organism
 ## Organism
 
 Fruits of various species
 
 ## Objective
+## Objective
 
 Check concordance with fruit salad specifications by Fruitlov and Bananas 2021, and investigate hash results.
 
+## Deliverables and Goals
 ## Deliverables and Goals
 
 * Sum of all fruits in the data.
 * md5 digest result of the modified fruit table.
 
+## Literature related to project
 ## Literature related to project
 
 * [Fruitlov and Bananas 2021]()
@@ -20,6 +25,7 @@ Check concordance with fruit salad specifications by Fruitlov and Bananas 2021, 
 * [Swede and Fruitlov 2019]()
   * Formulation of the fruit salad hypothesis
 
+## Relevant email and other communication
 ## Relevant email and other communication
 
 ```
